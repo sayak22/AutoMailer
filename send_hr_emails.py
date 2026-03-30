@@ -1,6 +1,6 @@
 import time
 
-from config import SENDER_EMAIL, SENDER_PASSWORD, LOGS_FOLDER, DELAY_SECONDS, REQUIRED_FIELDS
+from config import SENDER_EMAIL, SENDER_PASSWORD, LOGS_FOLDER, DELAY_SECONDS, REQUIRED_FIELDS, MAX_DAILY_EMAILS
 from logger import Logger
 from csv_handler import load_csv, save_csv, pick_pending_csv, archive_csv, is_row_incomplete
 from mailer import connect_smtp, dispatch_email
@@ -41,6 +41,10 @@ def main():
         if row.get("sent", "").strip().lower() in ("yes", "skipped"):
             continue
 
+        if (sent_count + error_count) >= MAX_DAILY_EMAILS:
+            log.log(f"\n  ⏸️  Reached daily limit of {MAX_DAILY_EMAILS} dispatch attempts. Pausing file until tomorrow.")
+            break
+
         if is_row_incomplete(row):
             missing = [f for f in REQUIRED_FIELDS if not row.get(f, "").strip()]
             log.log(f"  ⏭️  SKIPPED  | Missing: {', '.join(missing)} | Row: {dict(row)}")
@@ -77,7 +81,7 @@ def main():
     archived   = not unresolved
 
     if unresolved:
-        log.log(f"\n⚠️  {len(unresolved)} email(s) failed — file stays in pending/ for retry tomorrow.")
+        log.log(f"\n⚠️  {len(unresolved)} email(s) remain (failed or postponed) — file stays in pending/ for tomorrow.")
     else:
         archive_csv(csv_path, log)
 

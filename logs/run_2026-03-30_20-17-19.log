@@ -1,0 +1,22 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-03-30 20:17:19
+============================================================
+
+[20:17:19] 📂 Selected file : pending/Untitled spreadsheet - Sheet1.csv
+[20:17:19] 📋 Total rows : 2  |  Pending : 0
+
+[20:17:19] ✅ All rows already processed. Archiving file.
+[20:17:19] 📁 Archived 'pending/Untitled spreadsheet - Sheet1.csv' → 'sent/Untitled spreadsheet - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/Untitled spreadsheet - Sheet1.csv
+  ✅ Sent   : 0
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:00:00
+  Ended     : 2026-03-30 20:17:19
+============================================================
+

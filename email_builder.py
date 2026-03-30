@@ -14,8 +14,9 @@ def build_email(hr_name: str, company_name: str) -> tuple[str, str]:
     with open(template_path, "r", encoding="utf-8") as f:
         html_template = f.read()
 
-    # Join the skills list with the HTML dot separator
-    skills_html = " &nbsp;&middot;&nbsp; ".join(SKILLS)
+    # Wrap each skill in a soft grey bubble span
+    bubble_style = "display:inline-block; background-color:#efefe9; color:#666666; padding:5px 10px; margin:0 6px 6px 0; border-radius:12px; font-size:12px;"
+    skills_html = "".join(f'<span style="{bubble_style}">{s}</span>' for s in SKILLS)
 
     # Inject the variables into the HTML template safely
     html = html_template.format(

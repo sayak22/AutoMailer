@@ -1,0 +1,31 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-03-30 21:19:05
+============================================================
+
+[21:19:05] 📂 Selected file : pending/Untitled spreadsheet - Sheet1.csv
+[21:19:05] 📋 Total rows : 3  |  Pending : 3
+
+[21:19:05] 🔐 Logged in to Gmail SMTP successfully.
+[21:19:06]   ✅ SENT     | recruiter_1mg | test_1mg Comp | sayak.mondal@1mg.com
+[21:19:12]   ✅ SENT     | recruiter_test | test_personal comp | sayak.business@gmail.com
+[21:19:18]   ✅ SENT     | Shubhi | Qualcomm | arora.shubhi0565@gmail.com
+[21:19:23] 
+========================================
+[21:19:23]   ✅ Sent    : 3
+[21:19:23]   ⏭️  Skipped : 0
+[21:19:23]   ❌ Failed  : 0
+[21:19:23] ========================================
+[21:19:23] 📁 Archived 'pending/Untitled spreadsheet - Sheet1.csv' → 'sent/Untitled spreadsheet - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/Untitled spreadsheet - Sheet1.csv
+  ✅ Sent   : 3
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:00:18
+  Ended     : 2026-03-30 21:19:23
+============================================================
+

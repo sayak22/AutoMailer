@@ -1,0 +1,2 @@
+# No third-party packages needed.
+# All modules used (smtplib, csv, os, shutil, datetime) are Python stdlib.

@@ -12,6 +12,11 @@ SENDER_PASSWORD = os.environ.get("SENDER_PASSWORD", "")  # Gmail App Password
 YOUR_NAME       = "Sayak Mondal"   # ← Your full name (used in email sign-off)
 YOUR_FIRST_NAME = "Sayak"          # ← Your first name (used in email subject)
 ROLE_NAME       = "SDE-1"          # ← Role you are applying for
+SKILLS          = [
+    "Kotlin", "Jetpack Compose", "MVVM", "Coroutines", "Room",
+    "Firebase Auth", "Firestore", "Cloud Messaging",
+    "REST APIs", "Git", "Agile"
+]  # ← Core skills
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 RESUME_PATH    = "resume/Sayak_Mondal_Resume.pdf"  # ← Path to resume PDF; None to skip

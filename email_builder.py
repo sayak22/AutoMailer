@@ -1,5 +1,5 @@
 import os
-from config import YOUR_NAME, YOUR_FIRST_NAME, ROLE_NAME
+from config import YOUR_NAME, YOUR_FIRST_NAME, ROLE_NAME, SKILLS
 
 
 def build_email(hr_name: str, company_name: str) -> tuple[str, str]:
@@ -14,13 +14,17 @@ def build_email(hr_name: str, company_name: str) -> tuple[str, str]:
     with open(template_path, "r", encoding="utf-8") as f:
         html_template = f.read()
 
+    # Join the skills list with the HTML dot separator
+    skills_html = " &nbsp;&middot;&nbsp; ".join(SKILLS)
+
     # Inject the variables into the HTML template safely
     html = html_template.format(
         hr_name=hr_name,
         company_name=company_name,
         ROLE_NAME=ROLE_NAME,
         YOUR_NAME=YOUR_NAME,
-        YOUR_FIRST_NAME=YOUR_FIRST_NAME
+        YOUR_FIRST_NAME=YOUR_FIRST_NAME,
+        SKILLS=skills_html
     )
 
     return subject, html

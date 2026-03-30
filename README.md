@@ -6,11 +6,11 @@ Sends personalised cold emails to HR contacts from CSV files — one file per da
 
 ## How it works
 
-1. Drop a CSV file into `pending/`
-2. GitHub Actions runs every day at 10:30 AM IST
-3. The script picks the first CSV alphabetically, sends all emails in it, then moves the file to `sent/`
-4. If any emails fail, the file stays in `pending/` and only the failed rows are retried the next day
-5. A timestamped log file is written to `logs/` after every run
+1. Drop a CSV file into `pending/` on your `master` branch.
+2. GitHub Actions runs every day at 10:30 AM IST.
+3. The script switches to an isolated `execution` branch (to keep your `master` commit history perfectly clean).
+4. It merges your newest CSVs, sends up to your daily max limit of emails, and dynamically picks the HR or HM HTML template based on your CSV.
+5. The updated CSV states and logs are pushed exclusively to the `execution` branch.
 
 ---
 
@@ -20,7 +20,8 @@ Sends personalised cold emails to HR contacts from CSV files — one file per da
 AutoMailer/
 ├── send_hr_emails.py     # Entry point — orchestrates the send loop
 ├── config.py             # All configurable settings (edit this)
-├── email_template.html   # The HTML skeleton and message body (edit this)
+├── email_template.html   # The HTML skeleton and message body for HRs (edit this)
+├── email_template_hm.html# The HTML skeleton and message body for Hiring Managers (edit this)
 ├── email_builder.py      # Reads the template and sets the subject line
 ├── mailer.py             # Gmail SMTP connection and email dispatch
 ├── csv_handler.py        # CSV read, write, pick, and archive logic
@@ -39,12 +40,13 @@ AutoMailer/
 
 Each CSV file must have the following columns:
 
-| Column    | Description              |
-|-----------|--------------------------|
-| `name`    | HR contact's name        |
-| `company` | Company name             |
-| `mail`    | Recipient email address  |
-| `sent`    | Status — managed by the script (`no` / `yes` / `skipped` / `failed`) |
+| Column         | Description              |
+|----------------|--------------------------|
+| `name`         | HR contact's name        |
+| `company`      | Company name             |
+| `mail`         | Recipient email address  |
+| `designFormat` | *(Optional)* Type `HM` to use the technical Hiring Manager template |
+| `sent`         | Status — managed by the script (`no` / `yes` / `skipped` / `failed`) |
 
 Rows with any missing field are automatically marked `skipped` and logged.
 
@@ -83,7 +85,8 @@ DELAY_SECONDS   = 5
 
 ### 4. Customise the email
 
-- Edit `email_template.html` to change the HTML message body.
+- Edit `email_template.html` for your standard, structurally engaging HR outreach.
+- Edit `email_template_hm.html` for your highly technical, developer-to-developer messaging.
 - Edit `email_builder.py` to change the subject line parameters.
 
 ### 5. Add CSV files

@@ -53,12 +53,13 @@ def main():
             save_csv(csv_path, rows, fieldnames)
             continue
 
-        name    = row["name"].strip()
-        company = row["company"].strip()
-        email   = row["mail"].strip()
+        name          = row["name"].strip()
+        company       = row["company"].strip()
+        email         = row["mail"].strip()
+        design_format = row.get("designFormat", "HR").strip()
 
         try:
-            dispatch_email(server, email, name, company)
+            dispatch_email(server, email, name, company, design_format)
             row["sent"] = "yes"
             sent_count += 1
             log.log(f"  ✅ SENT     | {name} | {company} | {email}")

@@ -24,8 +24,8 @@ def connect_smtp(log: Logger) -> smtplib.SMTP | None:
     return None
 
 
-def dispatch_email(server: smtplib.SMTP, recipient: str, hr_name: str, company_name: str):
-    subject, html_body = build_email(hr_name, company_name)
+def dispatch_email(server: smtplib.SMTP, recipient: str, hr_name: str, company_name: str, design_format: str = "HR"):
+    subject, html_body = build_email(hr_name, company_name, design_format)
 
     msg = MIMEMultipart("alternative")
     msg["From"]    = SENDER_EMAIL

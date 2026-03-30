@@ -19,23 +19,47 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Run email script
+      - name: Run on Execution Branch
         env:
           SENDER_EMAIL:    ${{ secrets.SENDER_EMAIL }}
           SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
-        run: python send_hr_emails.py
-
-      - name: Commit moved CSV and log back to repo
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 1. Switch to execution branch (or create it if it's the first time)
+          git checkout -B execution origin/execution || git checkout -b execution
+          
+          # 2. Pull in any new CSV files you might have uploaded to master
+          # We use generic merge, but if there's a file conflict we favor execution's state
+          git merge origin/master --no-edit -m "Merge new files from master" || true
+          
+          # 3. Cleanup: If pulling master accidentally resurrected an old CSV you already mailed,
+          # delete the version in pending/ because a completed copy already lives in sent/
+          for file in pending/*.csv; do
+            if [ -f "$file" ]; then
+              basename=$(basename "$file")
+              if [ -f "sent/$basename" ]; then
+                echo "Cleaning up resurrected duplicate file: $basename"
+                rm "$file"
+              fi
+            fi
+          done
+          
+          # 4. Run the Python mailer
+          python send_hr_emails.py
+          
+          # 5. Save state (move CSVs to sent/, track logs)
           git add pending/ sent/ logs/
-          # Only commit if there is actually something new to commit
-          git diff --cached --quiet || git commit -m "chore: daily run $(date '+%Y-%m-%d') — move CSV + save log"
-          git push
+          git diff --cached --quiet || git commit -m "chore: automated dispatch $(date '+%Y-%m-%d')"
+          
+          # 5. Push EVERYTHING cleanly to the execution branch
+          git push -u origin execution

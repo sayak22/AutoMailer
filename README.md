@@ -20,7 +20,8 @@ Sends personalised cold emails to HR contacts from CSV files — one file per da
 AutoMailer/
 ├── send_hr_emails.py     # Entry point — orchestrates the send loop
 ├── config.py             # All configurable settings (edit this)
-├── email_builder.py      # Email subject + HTML body template (edit this)
+├── email_template.html   # The HTML skeleton and message body (edit this)
+├── email_builder.py      # Reads the template and sets the subject line
 ├── mailer.py             # Gmail SMTP connection and email dispatch
 ├── csv_handler.py        # CSV read, write, pick, and archive logic
 ├── logger.py             # Timestamped logging to console + file
@@ -82,7 +83,8 @@ DELAY_SECONDS   = 5
 
 ### 4. Customise the email
 
-Edit `email_builder.py` to change the subject line or message body.
+- Edit `email_template.html` to change the HTML message body.
+- Edit `email_builder.py` to change the subject line parameters.
 
 ### 5. Add CSV files
 

@@ -57,8 +57,9 @@ def archive_csv(csv_path: str, log: Logger):
     dest     = os.path.join(SENT_FOLDER, filename)
 
     if os.path.exists(dest):
+        from config import IST
         base, ext = os.path.splitext(filename)
-        stamp     = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        stamp     = datetime.datetime.now(IST).strftime("%Y%m%d_%H%M%S")
         dest      = os.path.join(SENT_FOLDER, f"{base}_{stamp}{ext}")
 
     shutil.move(csv_path, dest)

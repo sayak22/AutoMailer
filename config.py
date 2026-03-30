@@ -1,4 +1,8 @@
 import os
+import datetime
+
+# ── Globals ────────────────────────────────────────────────────────────────────
+IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 
 # ── Credentials (set as env vars or GitHub secrets — never hardcode) ───────────
 SENDER_EMAIL    = os.environ.get("SENDER_EMAIL", "")

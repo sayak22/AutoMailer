@@ -1,0 +1,43 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-03-31 11:47:20
+============================================================
+
+[11:47:20] 📂 Selected file : pending/sumit_sheet109 - Sheet1.csv
+[11:47:20]    (30 more file(s) queued for future days)
+[11:47:20] 📋 Total rows : 14  |  Pending : 14
+
+[11:47:20] 🔐 Logged in to Gmail SMTP successfully.
+[11:47:22]   ✅ SENT     | Neeraj | Rubrik | neeraj.ramesh@rubrik.com
+[11:47:28]   ✅ SENT     | Vidushi | Rubrik | vidushi.kothari@rubrik.com
+[11:47:34]   ✅ SENT     | Mounica | Rubrik | kareti.mounika@rubrik.com
+[11:47:40]   ✅ SENT     | Bharath | Rubrik | bharath.chandrashekar@rubrik.com
+[11:47:47]   ✅ SENT     | Hari | Rubrik | hariprasad.jeta@rubrik.com
+[11:47:53]   ✅ SENT     | Jiby | Amagi | jiby.thomas@amagi.com
+[11:47:59]   ✅ SENT     | Avni | Recro | avni.mittal@recro.io
+[11:48:05]   ✅ SENT     | Mandira | Resideo | mandira.malakar@resideo.com
+[11:48:11]   ✅ SENT     | Talent Team | Clearwater Analytics | Indiarecruiting@clearwateranalytics.com
+[11:48:18]   ✅ SENT     | Saumya | Jiohotstar | saumya.a@hotstar.com
+[11:48:24]   ✅ SENT     | Shruti | Emeritus | shruti.jha@emeritus.org
+[11:48:30]   ✅ SENT     | Kanika | S&P | kanika.handa@spglobal.com
+[11:48:36]   ✅ SENT     | Namrata | Nutanix | namrata.panda@nutanix.com
+[11:48:43]   ✅ SENT     | Prameed | Groupon | ppaul@groupon.com
+[11:48:48] 
+========================================
+[11:48:48]   ✅ Sent    : 14
+[11:48:48]   ⏭️  Skipped : 0
+[11:48:48]   ❌ Failed  : 0
+[11:48:48] ========================================
+[11:48:48] 📁 Archived 'pending/sumit_sheet109 - Sheet1.csv' → 'sent/sumit_sheet109 - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/sumit_sheet109 - Sheet1.csv
+  ✅ Sent   : 14
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:01:28
+  Ended     : 2026-03-31 11:48:48
+============================================================
+

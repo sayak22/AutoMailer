@@ -1,0 +1,55 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-01 11:19:38
+============================================================
+
+[11:19:38] 📂 Selected file : pending/sumit_sheet121 - Sheet1.csv
+[11:19:38]    (29 more file(s) queued for future days)
+[11:19:38] 📋 Total rows : 26  |  Pending : 26
+
+[11:19:39] 🔐 Logged in to Gmail SMTP successfully.
+[11:19:40]   ✅ SENT     | Samuel | Tide | samuel.winter@tide.co
+[11:19:47]   ✅ SENT     | Saurav | CoinDCX | saurav.ajmani@coindcx.com
+[11:19:53]   ✅ SENT     | Vaishnavi | ThoughtSpot | vaishnavi.gudimani@thoughtspot.com
+[11:20:00]   ✅ SENT     | Danish | Celonis | m.aziz@celonis.de
+[11:20:06]   ✅ SENT     | Rahul | Sia | rahul.singh@sia-partners.com
+[11:20:12]   ✅ SENT     | Dhananjay | Reltio | dhananjay.naik@reltio.com
+[11:20:18]   ✅ SENT     | Sonali | WPP | sonali.chandra@wpp.com
+[11:20:24]   ✅ SENT     | Komal | Gokwik | komal.rathee@gokwik.co
+[11:20:30]   ✅ SENT     | Prachi | Netomi | prachi@netomi.com
+[11:20:36]   ✅ SENT     | Achin | One Impression | achin.sood@oneimpression.io
+[11:20:42]   ✅ SENT     | Sargam | One Impression | sargam.bhaskar@oneimpression.io
+[11:20:48]   ✅ SENT     | Danish | Doordash | danish.shams@ext.doordash.com
+[11:20:54]   ✅ SENT     | Yugdev | Quince | yugdev@onequince.com
+[11:21:00]   ✅ SENT     | Anuj | Spyne | anuj.choudhary@spyne.ai
+[11:21:06]   ✅ SENT     | Puneet | Mindtickle | puneet.tandon@mindtickle.com
+[11:21:12]   ✅ SENT     | Vignesh | Publicis Sapient | vignesh.saminathan1@publicissapient.com
+[11:21:17]   ✅ SENT     | Ritika | Hackerrank | ritika.sharma@hackerrank.com
+[11:21:23]   ✅ SENT     | Akrati | Paypal | akrchaturvedi@paypal.com
+[11:21:30]   ✅ SENT     | Richa | Expedia | a-rimathur@expediagroup.com
+[11:21:36]   ✅ SENT     | Komal | Expedia | kjagota@expediagroup.com
+[11:21:42]   ✅ SENT     | Malvika | Expedia | mkakar@expediagroup.com
+[11:21:48]   ✅ SENT     | Shagun | Paypal | shachoudhary@paypal.com
+[11:21:54]   ✅ SENT     | Jasleen | Scry AI | jasleen.khurana@scryai.com
+[11:22:00]   ✅ SENT     | Neha | Teradata | neha.tiwari@teradata.com
+[11:22:06]   ✅ SENT     | Khushal | Teradata | khushal.narkhede@teradata.com
+[11:22:13]   ✅ SENT     | Simanchal | Reltio | simanchal.tripathy@reltio.com
+[11:22:18] 
+========================================
+[11:22:18]   ✅ Sent    : 26
+[11:22:18]   ⏭️  Skipped : 0
+[11:22:18]   ❌ Failed  : 0
+[11:22:18] ========================================
+[11:22:18] 📁 Archived 'pending/sumit_sheet121 - Sheet1.csv' → 'sent/sumit_sheet121 - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/sumit_sheet121 - Sheet1.csv
+  ✅ Sent   : 26
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:02:39
+  Ended     : 2026-04-01 11:22:18
+============================================================
+

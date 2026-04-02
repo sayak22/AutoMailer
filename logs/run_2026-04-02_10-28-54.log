@@ -1,0 +1,45 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-02 10:28:54
+============================================================
+
+[10:28:54] 📂 Selected file : pending/sumit_sheet121-1 - Sheet1.csv
+[10:28:54]    (28 more file(s) queued for future days)
+[10:28:54] 📋 Total rows : 16  |  Pending : 16
+
+[10:28:54] 🔐 Logged in to Gmail SMTP successfully.
+[10:28:55]   ✅ SENT     | Ashi | WEX | aashi.mishra@wexinc.com
+[10:29:01]   ✅ SENT     | Zoheb | Sprinto | zohebk@sprinto.com
+[10:29:07]   ✅ SENT     | Dinesh | Sprinto | dineshc@sprinto.com
+[10:29:13]   ✅ SENT     | Piyusha | Sprinto | piyushap@sprinto.com
+[10:29:19]   ✅ SENT     | Himanshika | Sprinto | himanshikaj@sprinto.com
+[10:29:25]   ✅ SENT     | Aather | Sprinto | aathers@sprinto.com
+[10:29:31]   ✅ SENT     | Shyam | Mastech | shyam.singh@mastechdigital.com
+[10:29:37]   ✅ SENT     | Rahul | Xoriant | rahul.garg@xoriant.com
+[10:29:43]   ✅ SENT     | Prateek | Meta | banerjeep@meta.com
+[10:29:48]   ✅ SENT     | Anjali | MongoDB | anjali.kushwaha@mongodb.com
+[10:29:54]   ✅ SENT     | Freny | Browserstack | freny@browserstack.com
+[10:30:00]   ✅ SENT     | Harry | Milliman | harry.singh@milliman.com
+[10:30:06]   ✅ SENT     | Rini | American Express | rini.saha@amexgbt.com
+[10:30:12]   ✅ SENT     | Kanav | Publicis Sapient | kanav.kapoor@publicissapient.com
+[10:30:18]   ✅ SENT     | Samiksha | Autodesk | samiksha.bhasin@autodesk.com
+[10:30:24]   ✅ SENT     | Heena | Juniper Square | hshirol@junipersquare.com
+[10:30:29] 
+========================================
+[10:30:29]   ✅ Sent    : 16
+[10:30:29]   ⏭️  Skipped : 0
+[10:30:29]   ❌ Failed  : 0
+[10:30:29] ========================================
+[10:30:29] 📁 Archived 'pending/sumit_sheet121-1 - Sheet1.csv' → 'sent/sumit_sheet121-1 - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/sumit_sheet121-1 - Sheet1.csv
+  ✅ Sent   : 16
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:01:34
+  Ended     : 2026-04-02 10:30:29
+============================================================
+

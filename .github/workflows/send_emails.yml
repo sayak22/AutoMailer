@@ -2,8 +2,8 @@ name: Send HR Emails
 
 on:
   schedule:
-    # 03:00 UTC = 8:30 AM IST, every day
-    - cron: '0 3 * * *'
+    # 03:00 UTC = 8:30 AM IST, Monday through Friday only (skip weekends)
+    - cron: '0 3 * * 1-5'
 
   # Lets you trigger this manually from the GitHub Actions tab anytime
   workflow_dispatch:

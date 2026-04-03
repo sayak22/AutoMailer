@@ -1,0 +1,23 @@
+.github/workflows/send_emails.yml
+  c41391a8dd852aea 5-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.3",
+  "base_commit_sha": "50bf15c495a247bc417c93541ed850f886145935",
+  "prompts": {
+    "c41391a8dd852aea": {
+      "agent_id": {
+        "tool": "DeputyDev",
+        "id": "405081",
+        "model": "AUTO"
+      },
+      "human_author": "sayak-1mg",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}

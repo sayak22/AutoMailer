@@ -1,0 +1,62 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-06 10:45:04
+============================================================
+
+[10:45:04] 📂 Selected file : pending/sumit_sheet131 - Sheet1.csv
+[10:45:04]    (26 more file(s) queued for future days)
+[10:45:04] 📋 Total rows : 36  |  Pending : 36
+
+[10:45:05] 🔐 Logged in to Gmail SMTP successfully.
+[10:45:06]   ✅ SENT     | Mahesh | Rippling | msuthar@rippling.com
+[10:45:11]   ✅ SENT     | Salini | Rippling | salinip@rippling.com
+[10:45:17]   ✅ SENT     | Nithil | Rippling | nithilba@rippling.com
+[10:45:24]   ✅ SENT     | Arun | Rippling | arprakash@rippling.com
+[10:45:30]   ✅ SENT     | Sindur | Rippling | sihegde@rippling.com
+[10:45:36]   ✅ SENT     | Mohini | Cisco | mokapoor@cisco.com
+[10:45:41]   ✅ SENT     | Asmita | Cisco | asangamnerkar@cisco.com
+[10:45:48]   ✅ SENT     | Durba | Cisco | dnandi@cisco.com
+[10:45:54]   ✅ SENT     | Ravi | Cisco | kiranr@cisco.com
+[10:46:01]   ✅ SENT     | Keertivardhan | Cisco | ketiwari@cisco.com
+[10:46:06]   ✅ SENT     | Rashmi | Hashicorp | rashmi.pal@hashicorp.com
+[10:46:13]   ✅ SENT     | Aishwariya | Hashicorp | aishwariya@hashicorp.com
+[10:46:19]   ✅ SENT     | Deepika | Hashicorp | deepika.sharma@hashicorp.com
+[10:46:25]   ✅ SENT     | Falguni | Glean | falguni.mahajan@glean.com
+[10:46:30]   ✅ SENT     | Shonima | Glean | shonima.reghu@glean.com
+[10:46:36]   ✅ SENT     | Bastobee | Glean | bastobee.borsaikia@glean.com
+[10:46:42]   ✅ SENT     | Celina | Glean | celina.mittal@glean.com
+[10:46:49]   ✅ SENT     | Aditi | Glean | aditi.kumar@glean.com
+[10:46:55]   ✅ SENT     | Parul | UIPath | parul.goyal@uipath.com
+[10:47:01]   ✅ SENT     | Kartik | ResMed | kartik.durga@resmed.com
+[10:47:07]   ✅ SENT     | Anuj | Spyne | anuj.choudhary@spyne.ai
+[10:47:13]   ✅ SENT     | Denishya | Amazon | denishya@amazon.com
+[10:47:19]   ✅ SENT     | Yogesh | Accedo | yogesh.samant@accedo.tv
+[10:47:25]   ✅ SENT     | Roshini | 6sense | roshini.naidu@6sense.com
+[10:47:31]   ✅ SENT     | Mansi | Attentive | mansi@attentive.ai
+[10:47:37]   ✅ SENT     | Ayushi | Careernet | ayushi.rajpoot@careernet.in
+[10:47:42]   ✅ SENT     | Neha | LTIMindTree | neha.shrivastava2@ltimindtree.com
+[10:47:48]   ✅ SENT     | Sameer | Fynd | sameerdev@gofynd.com
+[10:47:54]   ✅ SENT     | Deepanshi | Informatica | deegupta@informatica.com
+[10:48:00]   ✅ SENT     | Victoria | Linkedin | vpicardo@linkedin.com
+[10:48:05] 
+  ⏸️  Reached daily limit of 30 dispatch attempts. Pausing file until tomorrow.
+[10:48:05] 
+========================================
+[10:48:05]   ✅ Sent    : 30
+[10:48:05]   ⏭️  Skipped : 0
+[10:48:05]   ❌ Failed  : 0
+[10:48:05] ========================================
+[10:48:05] 
+⚠️  6 email(s) remain (failed or postponed) — file stays in pending/ for tomorrow.
+
+============================================================
+  Session Summary
+  CSV file  : pending/sumit_sheet131 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : No — stays in pending/ for retry
+  Duration  : 0:03:00
+  Ended     : 2026-04-06 10:48:05
+============================================================
+

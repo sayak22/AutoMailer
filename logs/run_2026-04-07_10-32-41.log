@@ -1,0 +1,35 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-07 10:32:41
+============================================================
+
+[10:32:41] 📂 Selected file : pending/sumit_sheet131 - Sheet1.csv
+[10:32:41]    (26 more file(s) queued for future days)
+[10:32:41] 📋 Total rows : 36  |  Pending : 6
+
+[10:32:42] 🔐 Logged in to Gmail SMTP successfully.
+[10:32:43]   ✅ SENT     | Chirag | Myntra | chirag.bali@myntra.com
+[10:32:50]   ✅ SENT     | Prateek | Dexian | prateek.raj@dexian.com
+[10:32:56]   ✅ SENT     | Divya | Myntra | divya.mohanty1@myntra.com
+[10:33:03]   ✅ SENT     | Shivani | Myntra | shivanidabar.vc@myntra.com
+[10:33:09]   ✅ SENT     | Jayanti | Myntra | jayanti.kawatra@myntra.com
+[10:33:16]   ✅ SENT     | Purnima | Myntra | pournima.shinde@myntra.com
+[10:33:21] 
+========================================
+[10:33:21]   ✅ Sent    : 6
+[10:33:21]   ⏭️  Skipped : 0
+[10:33:21]   ❌ Failed  : 0
+[10:33:21] ========================================
+[10:33:21] 📁 Archived 'pending/sumit_sheet131 - Sheet1.csv' → 'sent/sumit_sheet131 - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/sumit_sheet131 - Sheet1.csv
+  ✅ Sent   : 6
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:00:39
+  Ended     : 2026-04-07 10:33:21
+============================================================
+

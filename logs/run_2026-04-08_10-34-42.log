@@ -1,0 +1,34 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-08 10:34:42
+============================================================
+
+[10:34:42] 📂 Selected file : pending/sumit_sheet139 - Sheet1.csv
+[10:34:42]    (25 more file(s) queued for future days)
+[10:34:42] 📋 Total rows : 5  |  Pending : 5
+
+[10:34:43] 🔐 Logged in to Gmail SMTP successfully.
+[10:34:44]   ✅ SENT     | Shruthi | Nexla | shruthi.nagaraj@nexla.com
+[10:34:50]   ✅ SENT     | Saranya | Zeta | saranyab@zeta.tech
+[10:34:57]   ✅ SENT     | Praveen | Zeta | bpraveen@zeta.tech
+[10:35:03]   ✅ SENT     | Catherine | Directi | catherine.s@directi.com
+[10:35:09]   ✅ SENT     | Venkatesh | Wayfair | vvijayan1@wayfair.com
+[10:35:14] 
+========================================
+[10:35:14]   ✅ Sent    : 5
+[10:35:14]   ⏭️  Skipped : 0
+[10:35:14]   ❌ Failed  : 0
+[10:35:14] ========================================
+[10:35:14] 📁 Archived 'pending/sumit_sheet139 - Sheet1.csv' → 'sent/sumit_sheet139 - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/sumit_sheet139 - Sheet1.csv
+  ✅ Sent   : 5
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:00:32
+  Ended     : 2026-04-08 10:35:14
+============================================================
+

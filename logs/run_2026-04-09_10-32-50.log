@@ -1,0 +1,44 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-09 10:32:50
+============================================================
+
+[10:32:50] 📂 Selected file : pending/sumit_sheet141 - Sheet1.csv
+[10:32:50]    (24 more file(s) queued for future days)
+[10:32:50] 📋 Total rows : 15  |  Pending : 15
+
+[10:32:50] 🔐 Logged in to Gmail SMTP successfully.
+[10:32:53]   ✅ SENT     | Charles | PartnerOne | cporter@partneronecapital.com
+[10:32:59]   ✅ SENT     | Denilson | PartnerOne | dfigueiredo@partneronecapital.com
+[10:33:06]   ✅ SENT     | Sonali | Databricks | sonali.sachan@databricks.com
+[10:33:12]   ✅ SENT     | Mayur | Ascendeum | mayur@ascendeum.com
+[10:33:19]   ✅ SENT     | Soumyadeep | Ascendeum | soumyadeep.c@ascendeum.com
+[10:33:25]   ✅ SENT     | Roshni | Ascendeum | roshni@ascendeum.com
+[10:33:32]   ✅ SENT     | Naman | INDMoney | naman.kaushik@indmoney.com
+[10:33:38]   ✅ SENT     | Darpan | INDMoney | darpan.jain@indmoney.com
+[10:33:44]   ✅ SENT     | Komal | Expedia | kjagota@expediagroup.com
+[10:33:51]   ✅ SENT     | Richa | Expedia | a-rimathur@expediagroup.com
+[10:33:57]   ✅ SENT     | Ritika | Expedia | ritsingh@expediagroup.com
+[10:34:03]   ✅ SENT     | Sadiya | Visa | sadiya.sheik@visa.com
+[10:34:10]   ✅ SENT     | Ruhi | Visa | rkhanum@visa.com
+[10:34:17]   ✅ SENT     | Shikha | Visa | ssharad@visa.com
+[10:34:23]   ✅ SENT     | Meghna | Linkedin | mrajpal@linkedin.com
+[10:34:28] 
+========================================
+[10:34:28]   ✅ Sent    : 15
+[10:34:28]   ⏭️  Skipped : 0
+[10:34:28]   ❌ Failed  : 0
+[10:34:28] ========================================
+[10:34:28] 📁 Archived 'pending/sumit_sheet141 - Sheet1.csv' → 'sent/sumit_sheet141 - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/sumit_sheet141 - Sheet1.csv
+  ✅ Sent   : 15
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:01:38
+  Ended     : 2026-04-09 10:34:28
+============================================================
+

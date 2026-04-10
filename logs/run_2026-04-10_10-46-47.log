@@ -1,0 +1,38 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-10 10:46:47
+============================================================
+
+[10:46:47] 📂 Selected file : pending/sumit_sheet1411 - Sheet1.csv
+[10:46:47]    (23 more file(s) queued for future days)
+[10:46:47] 📋 Total rows : 9  |  Pending : 9
+
+[10:46:48] 🔐 Logged in to Gmail SMTP successfully.
+[10:46:49]   ✅ SENT     | Jasleen | BrightEdge | jasleen.kaur@brightedge.com
+[10:46:56]   ✅ SENT     | Bhavana | Mitigata | bhavana.s@mitigata.com
+[10:47:02]   ✅ SENT     | Diptiranjan | Acko | diptiranjan.pradhan@acko.tech
+[10:47:09]   ✅ SENT     | Aishwarya | Hashicorp | aishwariya@hashicorp.com
+[10:47:15]   ✅ SENT     | Chaitra | Skyflow | chaitra.grampurohit@skyflow.com
+[10:47:22]   ✅ SENT     | Amulya | PolicyBazaar | amulyavaish@policybazaar.com
+[10:47:28]   ✅ SENT     | Amrita | Serko | amrita.singh@serko.com
+[10:47:34]   ✅ SENT     | Muskan | Juniper Square | mnankani@junipersquare.com
+[10:47:41]   ✅ SENT     | Dapinder | JoVe | dapinder.sekhon@jove.com
+[10:47:46] 
+========================================
+[10:47:46]   ✅ Sent    : 9
+[10:47:46]   ⏭️  Skipped : 0
+[10:47:46]   ❌ Failed  : 0
+[10:47:46] ========================================
+[10:47:46] 📁 Archived 'pending/sumit_sheet1411 - Sheet1.csv' → 'sent/sumit_sheet1411 - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/sumit_sheet1411 - Sheet1.csv
+  ✅ Sent   : 9
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:00:58
+  Ended     : 2026-04-10 10:47:46
+============================================================
+

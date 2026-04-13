@@ -1,0 +1,38 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-13 11:02:35
+============================================================
+
+[11:02:35] 📂 Selected file : pending/sumit_sheet151 - Sheet1.csv
+[11:02:35]    (22 more file(s) queued for future days)
+[11:02:35] 📋 Total rows : 9  |  Pending : 9
+
+[11:02:35] 🔐 Logged in to Gmail SMTP successfully.
+[11:02:37]   ✅ SENT     | Shashiraj | Adobe | shashiraj@adobe.com
+[11:02:44]   ✅ SENT     | Gemini | Cotiviti | gemini.goyal@cotiviti.com
+[11:02:50]   ✅ SENT     | Niraj | Cotiviti | niraj.gupta@cotiviti.com
+[11:02:56]   ✅ SENT     | Ranjith | Cotiviti | ranjith.voonna@cotiviti.com
+[11:03:05]   ✅ SENT     | Jitendra | Cotiviti | jitendra.pandey@cotiviti.com
+[11:03:12]   ✅ SENT     | Talent Team | Akamai | hiring@akamai.com
+[11:03:19]   ✅ SENT     | Sindhu | Zerodha | sindhu.kr@zerodha.com
+[11:03:26]   ✅ SENT     | Damini | PayPal | dgupta@paypal.com
+[11:03:32]   ✅ SENT     | Nandish | Intuit | nandish_deshmukh@intuit.com
+[11:03:37] 
+========================================
+[11:03:37]   ✅ Sent    : 9
+[11:03:37]   ⏭️  Skipped : 0
+[11:03:37]   ❌ Failed  : 0
+[11:03:37] ========================================
+[11:03:37] 📁 Archived 'pending/sumit_sheet151 - Sheet1.csv' → 'sent/sumit_sheet151 - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/sumit_sheet151 - Sheet1.csv
+  ✅ Sent   : 9
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:01:02
+  Ended     : 2026-04-13 11:03:37
+============================================================
+

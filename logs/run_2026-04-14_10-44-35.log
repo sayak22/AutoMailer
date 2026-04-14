@@ -1,0 +1,43 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-14 10:44:35
+============================================================
+
+[10:44:35] 📂 Selected file : pending/sumit_sheet1510 - Sheet1.csv
+[10:44:35]    (21 more file(s) queued for future days)
+[10:44:35] 📋 Total rows : 14  |  Pending : 14
+
+[10:44:36] 🔐 Logged in to Gmail SMTP successfully.
+[10:44:38]   ✅ SENT     | Renu | Flipkart | renu.sharma@flipkart.com
+[10:44:44]   ✅ SENT     | Mohini | Cisco | mokapoor@cisco.com
+[10:44:51]   ✅ SENT     | Ramya | Brillio | ramya.sd@brillio.com
+[10:44:57]   ✅ SENT     | Anitha | Brillio | anitha.v@brillio.com
+[10:45:03]   ✅ SENT     | Snehal | Brillio | snehal.mogre@brillio.com
+[10:45:09]   ✅ SENT     | Shyam | Precisely | shyam.rajan@precisely.com
+[10:45:16]   ✅ SENT     | Azhar | Uipath | azhar.khan@uipath.com
+[10:45:22]   ✅ SENT     | Samiksha | Nanonets | samiksha@nanonets.com
+[10:45:29]   ✅ SENT     | Rahul | Buyogo | rahulsharma@buyogo.com
+[10:45:35]   ✅ SENT     | Diksha | Buyogo | diksha@buyogo.com
+[10:45:41]   ✅ SENT     | Kirti | Atmoicwork | kriti@atomicwork.com
+[10:45:48]   ✅ SENT     | Anas | Safe Security | anas.m@safe.security
+[10:45:54]   ✅ SENT     | Vaishnavi | Netapp | vaishnavi.rastogi@netapp.com
+[10:46:00]   ✅ SENT     | Ishwar | Netapp | ishwar.pandey@netapp.com
+[10:46:05] 
+========================================
+[10:46:05]   ✅ Sent    : 14
+[10:46:05]   ⏭️  Skipped : 0
+[10:46:05]   ❌ Failed  : 0
+[10:46:05] ========================================
+[10:46:05] 📁 Archived 'pending/sumit_sheet1510 - Sheet1.csv' → 'sent/sumit_sheet1510 - Sheet1.csv'
+
+============================================================
+  Session Summary
+  CSV file  : pending/sumit_sheet1510 - Sheet1.csv
+  ✅ Sent   : 14
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/
+  Duration  : 0:01:30
+  Ended     : 2026-04-14 10:46:05
+============================================================
+

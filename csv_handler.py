@@ -7,8 +7,13 @@ from config import PENDING_FOLDER, SENT_FOLDER, REQUIRED_FIELDS
 from logger import Logger
 
 
+def _norm(value: object) -> str:
+    """Normalize a possibly-missing CSV value into a trimmed string."""
+    return str(value or "").strip()
+
+
 def is_row_incomplete(row: dict) -> bool:
-    return any(not row.get(field, "").strip() for field in REQUIRED_FIELDS)
+    return any(not _norm(row.get(field, "")) for field in REQUIRED_FIELDS)
 
 
 def save_csv(path: str, rows: list, fieldnames: list):
@@ -22,7 +27,7 @@ def load_csv(path: str) -> tuple[list, list]:
     """Returns (rows, fieldnames). Adds a 'sent' column if missing."""
     with open(path, newline="", encoding="utf-8") as f:
         reader     = csv.DictReader(f)
-        fieldnames = list(reader.fieldnames)
+        fieldnames = list(reader.fieldnames or [])
         rows       = list(reader)
 
     if "sent" not in fieldnames:

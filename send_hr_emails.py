@@ -6,6 +6,10 @@ from csv_handler import load_csv, save_csv, pick_pending_csv, archive_csv, is_ro
 from mailer import connect_smtp, dispatch_email
 
 
+def _status(row: dict) -> str:
+    return str(row.get("sent", "")).strip().lower()
+
+
 def main():
     log = Logger(LOGS_FOLDER)
 
@@ -21,7 +25,7 @@ def main():
 
     rows, fieldnames = load_csv(csv_path)
 
-    pending = [r for r in rows if r.get("sent", "").strip().lower() not in ("yes", "skipped")]
+    pending = [r for r in rows if _status(r) not in ("yes", "skipped")]
     log.log(f"📋 Total rows : {len(rows)}  |  Pending : {len(pending)}\n")
 
     if not pending:
@@ -38,7 +42,7 @@ def main():
     sent_count = error_count = skipped_count = 0
 
     for row in rows:
-        if row.get("sent", "").strip().lower() in ("yes", "skipped"):
+        if _status(row) in ("yes", "skipped"):
             continue
 
         if (sent_count + error_count) >= MAX_DAILY_EMAILS:
@@ -78,7 +82,7 @@ def main():
     log.log(f"  ❌ Failed  : {error_count}")
     log.log(f"{'='*40}")
 
-    unresolved = [r for r in rows if r.get("sent", "").strip().lower() == "no"]
+    unresolved = [r for r in rows if _status(r) == "no"]
     archived   = not unresolved
 
     if unresolved:

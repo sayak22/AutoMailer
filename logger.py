@@ -1,12 +1,13 @@
 import datetime
 import os
 
+from config import IST, SENT_FOLDER
+
 
 class Logger:
     """Writes every message to both the console and a dated log file."""
 
     def __init__(self, log_folder: str):
-        from config import IST
         os.makedirs(log_folder, exist_ok=True)
         now            = datetime.datetime.now(IST)
         filename       = now.strftime("run_%Y-%m-%d_%H-%M-%S.log")
@@ -21,7 +22,6 @@ class Logger:
         self._append(f"{'='*60}\n")
 
     def _timestamp(self) -> str:
-        from config import IST
         return datetime.datetime.now(IST).strftime("%H:%M:%S")
 
     def _append(self, message: str):
@@ -34,7 +34,6 @@ class Logger:
         self._append(stamped)
 
     def write_footer(self, sent: int, skipped: int, failed: int, csv_file: str, archived: bool):
-        from config import SENT_FOLDER, IST
         elapsed = datetime.datetime.now(IST) - self.start_time
         self._append(f"\n{'='*60}")
         self._append(f"  Session Summary")

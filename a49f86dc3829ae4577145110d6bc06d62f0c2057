@@ -1,0 +1,40 @@
+csv_handler.py
+  ceb4f62b68a51e10 10-14,16,30
+send_hr_emails.py
+  ceb4f62b68a51e10 9-12,28,45,85
+logger.py
+  ceb4f62b68a51e10 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.3",
+  "base_commit_sha": "a49f86dc3829ae4577145110d6bc06d62f0c2057",
+  "prompts": {
+    "bf4ca994c4089ff1": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "a1202bb6-c6eb-4c87-9294-2b88a62f9322",
+        "model": "default"
+      },
+      "human_author": "sayak-1mg",
+      "messages": [],
+      "total_additions": 19,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "ceb4f62b68a51e10": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "187a4af3-af64-4bff-8d90-2fe570d2b3be",
+        "model": "default"
+      },
+      "human_author": "sayak-1mg",
+      "messages": [],
+      "total_additions": 16,
+      "total_deletions": 8,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    }
+  }
+}

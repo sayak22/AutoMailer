@@ -38,22 +38,12 @@ def load_csv(path: str) -> tuple[list, list]:
     return rows, fieldnames
 
 
-def pick_pending_csv(log: Logger) -> str | None:
+def list_pending_csv_paths() -> list[str]:
+    """Sorted list of `.csv` paths in `pending/` (lexicographic by filename)."""
     if not os.path.isdir(PENDING_FOLDER):
-        log.log(f"⚠️  '{PENDING_FOLDER}/' folder not found.")
-        return None
-
+        return []
     files = sorted(f for f in os.listdir(PENDING_FOLDER) if f.lower().endswith(".csv"))
-
-    if not files:
-        log.log(f"📭 No CSV files in '{PENDING_FOLDER}/'. Nothing to do today.")
-        return None
-
-    chosen = os.path.join(PENDING_FOLDER, files[0])
-    log.log(f"📂 Selected file : {chosen}")
-    if len(files) > 1:
-        log.log(f"   ({len(files) - 1} more file(s) queued for future days)")
-    return chosen
+    return [os.path.join(PENDING_FOLDER, f) for f in files]
 
 
 def archive_csv(csv_path: str, log: Logger):

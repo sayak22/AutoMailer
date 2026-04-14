@@ -24,6 +24,6 @@ SENT_FOLDER    = "sent"      # ← Processed CSV files are archived here
 LOGS_FOLDER    = "logs"      # ← Log files are saved here
 
 # ── Behaviour ──────────────────────────────────────────────────────────────────
-MAX_DAILY_EMAILS= 30                           # ← Maximum number of emails to attempt per day
+MAX_DAILY_EMAILS= 30                           # ← Target dispatch attempts per run (sent+failed); spans multiple CSVs in pending/ until this count or no work left
 DELAY_SECONDS   = 5                            # ← Seconds to wait between emails
 REQUIRED_FIELDS = {"name", "company", "mail"}  # ← CSV columns that must be non-empty

@@ -33,7 +33,7 @@ class Logger:
         print(stamped)
         self._append(stamped)
 
-    def write_footer(self, sent: int, skipped: int, failed: int, csv_file: str, archived: bool):
+    def write_footer(self, sent: int, skipped: int, failed: int, csv_file: str, archive_note: str):
         elapsed = datetime.datetime.now(IST) - self.start_time
         self._append(f"\n{'='*60}")
         self._append(f"  Session Summary")
@@ -41,7 +41,7 @@ class Logger:
         self._append(f"  ✅ Sent   : {sent}")
         self._append(f"  ⏭️  Skipped : {skipped}")
         self._append(f"  ❌ Failed : {failed}")
-        self._append(f"  Archived  : {'Yes → ' + SENT_FOLDER + '/' if archived else 'No — stays in pending/ for retry'}")
+        self._append(f"  Archived  : {archive_note}")
         self._append(f"  Duration  : {str(elapsed).split('.')[0]}")
         self._append(f"  Ended     : {datetime.datetime.now(IST).strftime('%Y-%m-%d %H:%M:%S')}")
         self._append(f"{'='*60}\n")

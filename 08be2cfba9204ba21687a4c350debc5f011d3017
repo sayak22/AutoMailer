@@ -1,0 +1,31 @@
+csv_handler.py
+  d7b017fffc6f439e 41-42,44,46
+config.py
+  d7b017fffc6f439e 27
+send_hr_emails.py
+  d7b017fffc6f439e 1,4-12,14,27,30-32,35-37,40-43,46-51,54,58-59,61-63,66-75,78-109,112,114-117,121-124,131,133-139,141,143
+mailer.py
+  d7b017fffc6f439e 1-2
+logger.py
+  d7b017fffc6f439e 36,44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.3",
+  "base_commit_sha": "08be2cfba9204ba21687a4c350debc5f011d3017",
+  "prompts": {
+    "d7b017fffc6f439e": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "2b405a42-2649-4d43-a7d4-1ea4353fa736",
+        "model": "default"
+      },
+      "human_author": "sayak-1mg",
+      "messages": [],
+      "total_additions": 399,
+      "total_deletions": 95,
+      "accepted_lines": 109,
+      "overriden_lines": 0
+    }
+  }
+}

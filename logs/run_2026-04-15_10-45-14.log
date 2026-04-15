@@ -1,0 +1,76 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-15 10:45:14
+============================================================
+
+[10:45:14] 📂 Found 22 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[10:45:15] 🔐 Logged in to Gmail SMTP successfully.
+[10:45:15] 📂 Processing : pending/apollo-contacts-export - apollo-contacts-export(email format).csv.csv  (pending rows: 11)
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Lakshmi', 'Company Name': 'Uber', 'Email': 'lakshmisp@uber.com', 'Sent': 'no', 'sent': 'no'}
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Suhasni', 'Company Name': 'Rapido', 'Email': 'suhasni.hangloo@rapido.bike', 'Sent': 'no', 'sent': 'no'}
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Thejaswi', 'Company Name': 'Uber', 'Email': 'thejaswib@uber.com', 'Sent': 'no', 'sent': 'no'}
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Nisha', 'Company Name': 'Groww', 'Email': 'nisha.tandon@groww.in', 'Sent': 'no', 'sent': 'no'}
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Mytheli', 'Company Name': 'Walmart Global Tech India', 'Email': 'mytheli.jayaprakash@walmartlabs.com', 'Sent': 'no', 'sent': 'no'}
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Pooja', 'Company Name': 'Korn Ferry', 'Email': 'pooja.mewara@kornferry.com', 'Sent': 'no', 'sent': 'no'}
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Madhavi', 'Company Name': 'Walmart Global Tech India', 'Email': 'madhavi.jr0@walmart.com', 'Sent': 'no', 'sent': 'no'}
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Harshitha', 'Company Name': 'Uber', 'Email': 'harshitha.posani@uber.com', 'Sent': 'no', 'sent': 'no'}
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Marcus', 'Company Name': 'Uber Freight', 'Email': 'marcus.taylor@uberfreight.com', 'Sent': 'no', 'sent': 'no'}
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Nitasha', 'Company Name': 'Battery Smart', 'Email': 'nitasha.sharma@batterysmart.in', 'Sent': 'no', 'sent': 'no'}
+[10:45:15]   ⏭️  SKIPPED  | Missing: name, company, mail | Row: {'First Name': 'Sheetal', 'Company Name': 'PayPal', 'Email': 'sheetsingh@paypal.com', 'Sent': 'no', 'sent': 'no'}
+[10:45:15] 📁 Archived 'pending/apollo-contacts-export - apollo-contacts-export(email format).csv.csv' → 'sent/apollo-contacts-export - apollo-contacts-export(email format).csv.csv'
+[10:45:15] 📂 Processing : pending/sumit_sheet19-1 - Sheet1.csv  (pending rows: 14)
+[10:45:16]   ✅ SENT     | Shaily | Synchrony | Shaily.Sharma@syf.com
+[10:45:22]   ✅ SENT     | Prateek | Hackerrank | prateek@hackerrank.com
+[10:45:28]   ✅ SENT     | Snigdha | Twilio | sojha@twilio.com
+[10:45:35]   ✅ SENT     | Abhijit | Twilio | athokal@twilio.com
+[10:45:41]   ✅ SENT     | Sabeel | Twilio | smulla@twilio.com
+[10:45:47]   ✅ SENT     | Sanghamitra | Twilio | sbarua@twilio.com
+[10:45:53]   ✅ SENT     | Ranjitha | Synchrony | Ranjitha.NR@syf.com
+[10:45:59]   ✅ SENT     | Jagriti | Paypal | jhemji@paypal.com
+[10:46:06]   ✅ SENT     | Gayathri | Twilio | grajamanickam@twilio.com
+[10:46:12]   ✅ SENT     | Anshika | Rippling | alamba@rippling.com
+[10:46:18]   ✅ SENT     | Shivani | Rippling | ssinha@rippling.com
+[10:46:24]   ✅ SENT     | Advika | Atlassian | asequeira@atlassian.com
+[10:46:30]   ✅ SENT     | Neerja | Nutanix | neeraja.upadhyay@nutanix.com
+[10:46:36]   ✅ SENT     | Rahul | Toast | rahul.jain@toasttab.com
+[10:46:41] 📁 Archived 'pending/sumit_sheet19-1 - Sheet1.csv' → 'sent/sumit_sheet19-1 - Sheet1.csv'
+[10:46:41] 📂 Processing : pending/sumit_sheet229 - Sheet1.csv  (pending rows: 9)
+[10:46:42]   ✅ SENT     | Nidhi | Thoughtspot | nidhi.agarwal@thoughtspot.com
+[10:46:49]   ✅ SENT     | Sanya | Hive | sanya@thehive.ai
+[10:46:55]   ✅ SENT     | Manisha | Blitz | manisha.sharma@blitznow.in
+[10:47:01]   ✅ SENT     | Nandini | Rippling | nnair@rippling.com
+[10:47:07]   ✅ SENT     | Gursharan | Nutrabay | gursharan.kaur@nutrabay.com
+[10:47:14]   ✅ SENT     | Bilal | Rudderstack | bilal@rudderstack.com
+[10:47:19]   ✅ SENT     | Mitesh | Rudderstack | mitesh@rudderstack.com
+[10:47:25]   ✅ SENT     | Vivek | Virtusa | vivekjoseph@virtusa.com
+[10:47:32]   ✅ SENT     | Ishan | Virtusa | ishana@virtusa.com
+[10:47:37] 📁 Archived 'pending/sumit_sheet229 - Sheet1.csv' → 'sent/sumit_sheet229 - Sheet1.csv'
+[10:47:37] 📂 Processing : pending/sumit_sheet2312 - Sheet1.csv  (pending rows: 30)
+[10:47:38]   ✅ SENT     | Vipul | Wingify | vipul.kumar@vwo.com
+[10:47:44]   ✅ SENT     | Neha | Wingify | neha.singh@vwo.com
+[10:47:50]   ✅ SENT     | Prativa | GrowthX | prativa.l@growthx.club
+[10:47:56]   ✅ SENT     | Ruchika | Microsoft | ruchika.rocque@microsoft.com
+[10:48:02]   ✅ SENT     | Adel | Dautom | adela@dautom.com
+[10:48:08]   ✅ SENT     | Muskan | Juniper Square | mnankani@junipersquare.com
+[10:48:15]   ✅ SENT     | Sheethal | Groww | sheethalkm@groww.in
+[10:48:20] 
+  ⏸️  Reached daily target of 30 dispatch attempts. Stopping until next run.
+[10:48:20] 
+========================================
+[10:48:20]   ✅ Sent    : 30
+[10:48:20]   ⏭️  Skipped : 11
+[10:48:20]   ❌ Failed  : 0
+[10:48:20] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : apollo-contacts-export - apollo-contacts-export(email format).csv.csv, sumit_sheet19-1 - Sheet1.csv, sumit_sheet229 - Sheet1.csv, sumit_sheet2312 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 11
+  ❌ Failed : 0
+  Archived  : No — still in pending/: sumit_sheet2312 - Sheet1.csv, sumit_sheet2410 - Sheet1.csv, sumit_sheet258 - Sheet1.csv, sumit_sheet268 - Sheet1.csv, sumit_sheet278 - Sheet1.csv, sumit_sheet278-1 - Sheet1.csv, sumit_sheet281 - Sheet1 (1).csv, sumit_sheet288 - Sheet1.csv, sumit_sheet299 - Sheet1.csv, sumit_sheet42 - Sheet1.csv, sumit_sheet51 - Sheet1.csv, sumit_sheet511 - Sheet1.csv, sumit_sheet512 - Sheet1 (1).csv, sumit_sheet61 - Sheet1.csv, sumit_sheet610 - Sheet1.csv, sumit_sheet81 - Sheet1.csv, sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv; archived this run: apollo-contacts-export - apollo-contacts-export(email format).csv.csv, sumit_sheet19-1 - Sheet1.csv, sumit_sheet229 - Sheet1.csv
+  Duration  : 0:03:05
+  Ended     : 2026-04-15 10:48:20
+============================================================
+

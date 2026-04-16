@@ -1,0 +1,61 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-16 10:52:27
+============================================================
+
+[10:52:27] 📂 Found 19 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[10:52:28] 🔐 Logged in to Gmail SMTP successfully.
+[10:52:28] 📂 Processing : pending/sumit_sheet2312 - Sheet1.csv  (pending rows: 23)
+[10:52:29]   ✅ SENT     | Nisha | Groww | nisha.tandon@groww.in
+[10:52:36]   ✅ SENT     | Saurabh | Groww | saurabh.dubey@groww.in
+[10:52:42]   ✅ SENT     | Ekta | Cloudflare | ekta@cloudflare.com
+[10:52:49]   ✅ SENT     | Nishant | Cloudflare | nbs@cloudflare.com
+[10:52:55]   ✅ SENT     | Sudha | Stripe | sudharamesh@stripe.com
+[10:53:02]   ✅ SENT     | Ajith | Stripe | ajithkumar@stripe.com
+[10:53:08]   ✅ SENT     | Ishita | Stripe | ishi@stripe.com
+[10:53:14]   ✅ SENT     | Akash | Doordash | akash.singh@doordash.com
+[10:53:21]   ✅ SENT     | Arpana | CSG | arpana@csgi.com
+[10:53:27]   ✅ SENT     | Veena | CSG | veena.usulkar@csgi.com
+[10:53:33]   ✅ SENT     | Arison | CSG | arison.ferreira@csgi.com
+[10:53:39]   ✅ SENT     | Nitesh | Policybazaar | niteshpratapsingh@policybazaar.com
+[10:53:45]   ✅ SENT     | Ashish | Cargill | ashish_verma@cargill.com
+[10:53:51]   ✅ SENT     | Swetha | Cargill | swetha_konni@cargill.com
+[10:53:58]   ✅ SENT     | Lavanya | Toast | lavanya.adyanthaya@toasttab.com
+[10:54:04]   ✅ SENT     | Tanvi | Recro | tanvi.singh@recro.io
+[10:54:11]   ✅ SENT     | Akshita | Ayna | akshita@getayna.com
+[10:54:17]   ✅ SENT     | Santhosh | Unisys | patlolla.santhoshreddy@unisys.com
+[10:54:23]   ✅ SENT     | Divya | Ema | divya@ema.co
+[10:54:29]   ✅ SENT     | Rajat | Ema | rajat@ema.co
+[10:54:36]   ✅ SENT     | Neha | Sumo Logic | neha.ganesh.ctr@sumologic.com
+[10:54:42]   ✅ SENT     | Krishna | Sumo Logic | ksingh@sumologic.com
+[10:54:48]   ✅ SENT     | Anusuya | Sumo Logic | anusuya.rajendran@sumologic.com
+[10:54:53] 📁 Archived 'pending/sumit_sheet2312 - Sheet1.csv' → 'sent/sumit_sheet2312 - Sheet1.csv'
+[10:54:53] 📂 Processing : pending/sumit_sheet2410 - Sheet1.csv  (pending rows: 9)
+[10:54:54]   ✅ SENT     | Talent Team | Grip Invest | hiring@gripinvest.in
+[10:55:00]   ✅ SENT     | Anupam | Flam | anupam.yadav@flamapp.com
+[10:55:06]   ✅ SENT     | Manasa | Flam | manasa.kamarthi@flamapp.com
+[10:55:12]   ✅ SENT     | Tanvi | Recro | tanvi.singh@recro.io
+[10:55:18]   ✅ SENT     | Nupur | Coinswitch | nupur.s@coinswitch.co
+[10:55:24]   ✅ SENT     | Nupur | Coinswitch | nupur.singh@coinswitch.co
+[10:55:30]   ✅ SENT     | Nupur | Coinswitch | nupur@coinswitch.co
+[10:55:35] 
+  ⏸️  Reached daily target of 30 dispatch attempts. Stopping until next run.
+[10:55:35] 
+========================================
+[10:55:35]   ✅ Sent    : 30
+[10:55:35]   ⏭️  Skipped : 0
+[10:55:35]   ❌ Failed  : 0
+[10:55:35] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : sumit_sheet2312 - Sheet1.csv, sumit_sheet2410 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : No — still in pending/: sumit_sheet2410 - Sheet1.csv, sumit_sheet258 - Sheet1.csv, sumit_sheet268 - Sheet1.csv, sumit_sheet278 - Sheet1.csv, sumit_sheet278-1 - Sheet1.csv, sumit_sheet281 - Sheet1 (1).csv, sumit_sheet288 - Sheet1.csv, sumit_sheet299 - Sheet1.csv, sumit_sheet42 - Sheet1.csv, sumit_sheet51 - Sheet1.csv, sumit_sheet511 - Sheet1.csv, sumit_sheet512 - Sheet1 (1).csv, sumit_sheet61 - Sheet1.csv, sumit_sheet610 - Sheet1.csv, sumit_sheet81 - Sheet1.csv, sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv; archived this run: sumit_sheet2312 - Sheet1.csv
+  Duration  : 0:03:08
+  Ended     : 2026-04-16 10:55:35
+============================================================
+

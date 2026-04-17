@@ -1,0 +1,63 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-17 10:50:21
+============================================================
+
+[10:50:21] 📂 Found 18 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[10:50:21] 🔐 Logged in to Gmail SMTP successfully.
+[10:50:21] 📂 Processing : pending/sumit_sheet2410 - Sheet1.csv  (pending rows: 2)
+[10:50:22]   ✅ SENT     | Ananda | Angel One | ananda.pandey@angelbroking.com
+[10:50:28]   ✅ SENT     | Shivani | Hevo Data | shivani.gaur@hevo.io
+[10:50:33] 📁 Archived 'pending/sumit_sheet2410 - Sheet1.csv' → 'sent/sumit_sheet2410 - Sheet1.csv'
+[10:50:33] 📂 Processing : pending/sumit_sheet258 - Sheet1.csv  (pending rows: 21)
+[10:50:33]   ✅ SENT     | Aishwarya | Twillio | agopalakrishna@twilio.com
+[10:50:39]   ✅ SENT     | Anisha | Atlassian | aadlakha@atlassian.com
+[10:50:45]   ✅ SENT     | Onyx | Razorpay | onyx.lakra@razorpay.com
+[10:50:51]   ✅ SENT     | Calvin | Browsestack | calvin.m@browserstack.com
+[10:50:57]   ✅ SENT     | Arshdeep | American Express | arshdeep.kaur1@aexp.com
+[10:51:03]   ✅ SENT     | Shivang | American Express | shivang.mehta@aexp.com
+[10:51:08]   ✅ SENT     | Mansi | American Express | mansi.choudhary2@aexp.com
+[10:51:14]   ✅ SENT     | Siddharth | Hashicorp | siddharth.goswami@hashicorp.com
+[10:51:20]   ✅ SENT     | Sonali | Databricks | sonali.sachan@databricks.com
+[10:51:26]   ✅ SENT     | Shaswati | Databricks | shaswati.sen@databricks.com
+[10:51:32]   ✅ SENT     | Pooja | Cisco | pmeethal@cisco.com
+[10:51:38]   ✅ SENT     | Talent Team | Cisco | nisravik@cisco.com
+[10:51:44]   ✅ SENT     | Parul | UIPath | parul.goyal@uipath.com
+[10:51:50]   ✅ SENT     | Nithin | UIPath | nithin.c@uipath.com
+[10:51:55]   ✅ SENT     | Sahaha | UIPath | sahana.reddy@uipath.com
+[10:52:01]   ✅ SENT     | Piyush | Mastercard | piyush.mahamuni@mastercard.com
+[10:52:07]   ✅ SENT     | Kapil | Mastercard | kapil.sain@mastercard.com
+[10:52:13]   ✅ SENT     | Shruti | Intuit | shruti_sharma@intuit.com
+[10:52:18]   ✅ SENT     | Priya | Intuit | priya_bade@intuit.com
+[10:52:25]   ✅ SENT     | Greeshma | Intuit | greeshma_lal@intuit.com
+[10:52:30]   ✅ SENT     | Sheetal | Paypal | sheetsingh@paypal.com
+[10:52:35] 📁 Archived 'pending/sumit_sheet258 - Sheet1.csv' → 'sent/sumit_sheet258 - Sheet1.csv'
+[10:52:35] 📂 Processing : pending/sumit_sheet268 - Sheet1.csv  (pending rows: 17)
+[10:52:37]   ✅ SENT     | Anshika | Rippling | alamba@rippling.com
+[10:52:42]   ✅ SENT     | Nandini | Rippling | nnair@rippling.com
+[10:52:48]   ✅ SENT     | Sonali | Databricks | sonali.sachan@databricks.com
+[10:52:54]   ✅ SENT     | Sudha | Stripe | sudharamesh@stripe.com
+[10:53:00]   ✅ SENT     | Sandeep | Stripe | sandeepc@stripe.com
+[10:53:06]   ✅ SENT     | Sathyabhama | Glean | sathyabhama.dasari@glean.com
+[10:53:12]   ✅ SENT     | Falguni | Glean | falguni.mahajan@glean.com
+[10:53:17] 
+  ⏸️  Reached daily target of 30 dispatch attempts. Stopping until next run.
+[10:53:17] 
+========================================
+[10:53:17]   ✅ Sent    : 30
+[10:53:17]   ⏭️  Skipped : 0
+[10:53:17]   ❌ Failed  : 0
+[10:53:17] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : sumit_sheet2410 - Sheet1.csv, sumit_sheet258 - Sheet1.csv, sumit_sheet268 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : No — still in pending/: sumit_sheet268 - Sheet1.csv, sumit_sheet278 - Sheet1.csv, sumit_sheet278-1 - Sheet1.csv, sumit_sheet281 - Sheet1 (1).csv, sumit_sheet288 - Sheet1.csv, sumit_sheet299 - Sheet1.csv, sumit_sheet42 - Sheet1.csv, sumit_sheet51 - Sheet1.csv, sumit_sheet511 - Sheet1.csv, sumit_sheet512 - Sheet1 (1).csv, sumit_sheet61 - Sheet1.csv, sumit_sheet610 - Sheet1.csv, sumit_sheet81 - Sheet1.csv, sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv; archived this run: sumit_sheet2410 - Sheet1.csv, sumit_sheet258 - Sheet1.csv
+  Duration  : 0:02:56
+  Ended     : 2026-04-17 10:53:17
+============================================================
+

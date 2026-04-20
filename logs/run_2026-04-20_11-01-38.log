@@ -1,0 +1,61 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-20 11:01:38
+============================================================
+
+[11:01:38] 📂 Found 16 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[11:01:38] 🔐 Logged in to Gmail SMTP successfully.
+[11:01:38] 📂 Processing : pending/sumit_sheet268 - Sheet1.csv  (pending rows: 10)
+[11:01:40]   ✅ SENT     | Abhishek | Glean | abhishek.kannan@glean.com
+[11:01:46]   ✅ SENT     | Bastobee | Glean | bastobee.borsaikia@glean.com
+[11:01:52]   ✅ SENT     | Saheli | Wayfair | sbanerjee2@wayfair.com
+[11:01:58]   ✅ SENT     | Ronica | Wayfair | rthampi@wayfair.com
+[11:02:04]   ✅ SENT     | Sangam | Wayfair | ssharma27@wayfair.com
+[11:02:10]   ✅ SENT     | Jafar | Wayfair | jshaik@wayfair.com
+[11:02:16]   ✅ SENT     | Soumya | Livspace | soumya.rai@livspace.com
+[11:02:22]   ✅ SENT     | Ashvitha | Livspace | ashvitha.ramesh@livspace.com
+[11:02:28]   ✅ SENT     | Valentina | Thoughtspot | valentina.dsouza@thoughtspot.com
+[11:02:34]   ✅ SENT     | Vaishnavi | Thoughtspot | vaishnavi.gudimani@thoughtspot.com
+[11:02:39] 📁 Archived 'pending/sumit_sheet268 - Sheet1.csv' → 'sent/sumit_sheet268 - Sheet1.csv'
+[11:02:39] 📂 Processing : pending/sumit_sheet278 - Sheet1.csv  (pending rows: 25)
+[11:02:40]   ✅ SENT     | Akansha | Google | akankshapande@google.com
+[11:02:46]   ✅ SENT     | Abhay | Google | aabhay@google.com
+[11:02:52]   ✅ SENT     | Nikhila | Google | nikhilaz@google.com
+[11:02:58]   ✅ SENT     | Twinkle | Google | sharmatwinkle@google.com
+[11:03:04]   ✅ SENT     | Purnima | Nvidia | prathore@nvidia.com
+[11:03:11]   ✅ SENT     | Sanmati | Nvidia | sbidikar@nvidia.com
+[11:03:17]   ✅ SENT     | Priyanka | Eightfold | psavekar@eightfold.ai
+[11:03:23]   ✅ SENT     | Nikhil | Eightfold | ndutta@eightfold.ai
+[11:03:29]   ✅ SENT     | Harshit | Eightfold | hlokhande-c@eightfold.ai
+[11:03:35]   ✅ SENT     | Naina | Angel one | naina.gurang@angelone.in
+[11:03:42]   ✅ SENT     | Ananda | Angel one | ananda.pandey@angelbroking.com
+[11:03:48]   ✅ SENT     | Ashi | Angel one | ashi@angelone.in
+[11:03:54]   ✅ SENT     | Pallavi | Couchbase | pallavi.td@couchbase.com
+[11:04:00]   ✅ SENT     | Chaitra | Couchbase | chaitra.shree@couchbase.com
+[11:04:06]   ✅ SENT     | Naveen | Cohesity | naveen.kamaraju@cohesity.com
+[11:04:11]   ✅ SENT     | Arpita | Cohesity | arpita.dutta@cohesity.com
+[11:04:17]   ✅ SENT     | Swetha | Cohesity | swetha.singh@cohesity.com
+[11:04:23]   ✅ SENT     | Prathika | Oracle | prathika.shetty@oracle.com
+[11:04:29]   ✅ SENT     | Keerthana | Oracle | keerthana.nagaraj@oracle.com
+[11:04:35]   ✅ SENT     | Aayushi | Oracle | aayushi.srivastava@oracle.com
+[11:04:40] 
+  ⏸️  Reached daily target of 30 dispatch attempts. Stopping until next run.
+[11:04:40] 
+========================================
+[11:04:40]   ✅ Sent    : 30
+[11:04:40]   ⏭️  Skipped : 0
+[11:04:40]   ❌ Failed  : 0
+[11:04:40] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : sumit_sheet268 - Sheet1.csv, sumit_sheet278 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : No — still in pending/: sumit_sheet278 - Sheet1.csv, sumit_sheet278-1 - Sheet1.csv, sumit_sheet281 - Sheet1 (1).csv, sumit_sheet288 - Sheet1.csv, sumit_sheet299 - Sheet1.csv, sumit_sheet42 - Sheet1.csv, sumit_sheet51 - Sheet1.csv, sumit_sheet511 - Sheet1.csv, sumit_sheet512 - Sheet1 (1).csv, sumit_sheet61 - Sheet1.csv, sumit_sheet610 - Sheet1.csv, sumit_sheet81 - Sheet1.csv, sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv; archived this run: sumit_sheet268 - Sheet1.csv
+  Duration  : 0:03:02
+  Ended     : 2026-04-20 11:04:40
+============================================================
+

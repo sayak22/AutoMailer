@@ -1,0 +1,65 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-21 10:49:11
+============================================================
+
+[10:49:11] 📂 Found 15 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[10:49:11] 🔐 Logged in to Gmail SMTP successfully.
+[10:49:11] 📂 Processing : pending/sumit_sheet278 - Sheet1.csv  (pending rows: 5)
+[10:49:13]   ✅ SENT     | Mahima | Databricks | mahima.saxena@databricks.com
+[10:49:19]   ✅ SENT     | Rudraksh | Airbnb | rudraksh.dubey@ext.airbnb.com
+[10:49:25]   ✅ SENT     | Priyanka | Airbnb | priyanka.sabannavarg@airbnb.com
+[10:49:31]   ✅ SENT     | Kajal | Airbnb | kajal.kaushal@ext.airbnb.com
+[10:49:37]   ✅ SENT     | Anubha | Airbnb | anubha.kumar@airbnb.com
+[10:49:42] 📁 Archived 'pending/sumit_sheet278 - Sheet1.csv' → 'sent/sumit_sheet278 - Sheet1.csv'
+[10:49:42] 📂 Processing : pending/sumit_sheet278-1 - Sheet1.csv  (pending rows: 15)
+[10:49:44]   ✅ SENT     | Raghav | Twilio | rkatyal@twilio.com
+[10:49:50]   ✅ SENT     | Sujith | Google | sujithsubhash@google.com
+[10:49:56]   ✅ SENT     | Sandip | Sharechat | sandipani@sharechat.co
+[10:50:03]   ✅ SENT     | Harmeet | Rakuten | harmeet.singh@rakuten.com
+[10:50:09]   ✅ SENT     | Arpita | Rakuten | arpita.ghosh@rakuten.com
+[10:50:15]   ✅ SENT     | Honami san | Rakuten | honami.itaya@rakuten.com
+[10:50:21]   ✅ SENT     | Naveen | Rakuten | naveen.bilimaga@rakuten.com
+[10:50:27]   ✅ SENT     | Ananda | Rakuten | ananda.moyee@rakuten.com
+[10:50:34]   ✅ SENT     | Nivedita | Rakuten | nivedita.dwarkanath@rakuten.com
+[10:50:40]   ✅ SENT     | Asmita | Arcana | asmita@arcana.io
+[10:50:47]   ✅ SENT     | Salini | Arcana | salini@arcana.io
+[10:50:53]   ✅ SENT     | Shreya | Arcana | shreya@arcana.io
+[10:50:59]   ✅ SENT     | Madhavi | Arcana | madhavi@arcana.io
+[10:51:06]   ✅ SENT     | Abhishek | Apollo.io | abhishek.nadagowd@apollo.io
+[10:51:12]   ✅ SENT     | Saravanaprakash | Apollo.io | saravanaprakash@apollo.io
+[10:51:17] 📁 Archived 'pending/sumit_sheet278-1 - Sheet1.csv' → 'sent/sumit_sheet278-1 - Sheet1.csv'
+[10:51:17] 📂 Processing : pending/sumit_sheet281 - Sheet1 (1).csv  (pending rows: 9)
+[10:51:18]   ✅ SENT     | Hitesh | OLX | hitesh.das@olx.in
+[10:51:24]   ✅ SENT     | Akash | Doordash | akash.deep.singh@ext.doordash.com
+[10:51:30]   ✅ SENT     | Krishna | HuntingCube | krishna.sharma@huntingcube.com
+[10:51:36]   ✅ SENT     | Minakshi | HuntingCube | minakshi.bhandari@huntingcube.com
+[10:51:42]   ✅ SENT     | Naushad | HuntingCube | naushad.alam@huntingcube.com
+[10:51:48]   ✅ SENT     | Surbhi | Aspire | surbhi.t@aspireapp.com
+[10:51:55]   ✅ SENT     | Kritika | Aspire | kritika.b@aspireapp.com
+[10:52:01]   ✅ SENT     | Anjali | Aspire | anjali.t@aspireapp.com
+[10:52:07]   ✅ SENT     | Welson | Healthify | welson.mandanna@healthify.co
+[10:52:12] 📁 Archived 'pending/sumit_sheet281 - Sheet1 (1).csv' → 'sent/sumit_sheet281 - Sheet1 (1).csv'
+[10:52:12] 📂 Processing : pending/sumit_sheet288 - Sheet1.csv  (pending rows: 8)
+[10:52:13]   ✅ SENT     | Manasa | Okta | manasa.kola@okta.com
+[10:52:18] 
+  ⏸️  Reached daily target of 30 dispatch attempts. Stopping until next run.
+[10:52:18] 
+========================================
+[10:52:18]   ✅ Sent    : 30
+[10:52:18]   ⏭️  Skipped : 0
+[10:52:18]   ❌ Failed  : 0
+[10:52:18] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : sumit_sheet278 - Sheet1.csv, sumit_sheet278-1 - Sheet1.csv, sumit_sheet281 - Sheet1 (1).csv, sumit_sheet288 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : No — still in pending/: sumit_sheet288 - Sheet1.csv, sumit_sheet299 - Sheet1.csv, sumit_sheet42 - Sheet1.csv, sumit_sheet51 - Sheet1.csv, sumit_sheet511 - Sheet1.csv, sumit_sheet512 - Sheet1 (1).csv, sumit_sheet61 - Sheet1.csv, sumit_sheet610 - Sheet1.csv, sumit_sheet81 - Sheet1.csv, sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv; archived this run: sumit_sheet278 - Sheet1.csv, sumit_sheet278-1 - Sheet1.csv, sumit_sheet281 - Sheet1 (1).csv
+  Duration  : 0:03:07
+  Ended     : 2026-04-21 10:52:18
+============================================================
+

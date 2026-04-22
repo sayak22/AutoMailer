@@ -1,0 +1,63 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-22 10:46:53
+============================================================
+
+[10:46:53] 📂 Found 12 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[10:46:54] 🔐 Logged in to Gmail SMTP successfully.
+[10:46:54] 📂 Processing : pending/sumit_sheet288 - Sheet1.csv  (pending rows: 7)
+[10:46:55]   ✅ SENT     | Ramya | Okta | ramya.ramamurthy@okta.com
+[10:47:02]   ✅ SENT     | Debi | Okta | debi.dey@okta.com
+[10:47:09]   ✅ SENT     | Akrati | Okta | akrati.sheoraut@okta.com
+[10:47:15]   ✅ SENT     | VIvek | Clearwater Analytics | vivekverma@clearwateranalytics.com
+[10:47:20]   ✅ SENT     | Vashu | Clearwater Analytics | vashu.sharma@clearwateranalytics.com
+[10:47:26]   ✅ SENT     | Deepti | Clearwater Analytics | daman@clearwateranalytics.com
+[10:47:32]   ✅ SENT     | Ria | Remitly | riav@remitly.com
+[10:47:37] 📁 Archived 'pending/sumit_sheet288 - Sheet1.csv' → 'sent/sumit_sheet288 - Sheet1.csv'
+[10:47:37] 📂 Processing : pending/sumit_sheet299 - Sheet1.csv  (pending rows: 16)
+[10:47:39]   ✅ SENT     | Radhika | Hevo Data | radhika.chandan@hevodata.com
+[10:47:45]   ✅ SENT     | Shikha | Hevo Data | shikha.kumari@hevodata.com
+[10:47:51]   ✅ SENT     | Pratiksha | Hevo Data | pratiksha.gadhe@hevodata.com
+[10:47:57]   ✅ SENT     | Shivani | Hevo Data | shivani.gaur@hevo.io
+[10:48:03]   ✅ SENT     | Archana | Netomi | archana@netomi.com
+[10:48:09]   ✅ SENT     | Jiby | Amagi | jiby.thomas@amagi.com
+[10:48:15]   ✅ SENT     | Diptiranjan | Acko | diptiranjan.pradhan@acko.tech
+[10:48:21]   ✅ SENT     | Karishma | Stripe | kshma@stripe.com
+[10:48:27]   ✅ SENT     | Sudha | Stripe | sudharamesh@stripe.com
+[10:48:33]   ✅ SENT     | Gopal | Stripe | gopalkharwat@stripe.com
+[10:48:39]   ✅ SENT     | Chaitra | Skyflow | chaitra.grampurohit@skyflow.com
+[10:48:45]   ✅ SENT     | Anju | Epsilon | anju.singh@epsilon.com
+[10:48:51]   ✅ SENT     | Aarohi | Epsilon | aarohi.srivastava@epsilon.com
+[10:48:57]   ✅ SENT     | Jason | Epsilon | jason.ivan@epsilon.com
+[10:49:04]   ✅ SENT     | Damien | Doordash | damien.malsbury@doordash.com
+[10:49:10]   ✅ SENT     | Lindsey | Doordash | lindsey.mason@ext.doordash.com
+[10:49:15] 📁 Archived 'pending/sumit_sheet299 - Sheet1.csv' → 'sent/sumit_sheet299 - Sheet1.csv'
+[10:49:15] 📂 Processing : pending/sumit_sheet42 - Sheet1.csv  (pending rows: 8)
+[10:49:16]   ✅ SENT     | Urja | Clevertap | urja@clevertap.com
+[10:49:22]   ✅ SENT     | Poppin | Clevertap | poppin@clevertap.com
+[10:49:28]   ✅ SENT     | Shikha | Clevertap | shikha.bhansali@clevertap.com
+[10:49:34]   ✅ SENT     | Pooja | Chalo | pooja@chalo.com
+[10:49:40]   ✅ SENT     | Kostub | Goldcast | kostub@goldcast.io
+[10:49:46]   ✅ SENT     | Lavanya | McKinsey | lavanya_krishna@mckinsey.com
+[10:49:52]   ✅ SENT     | Ramsha | Whatfix | ramsha.meraj@whatfix.com
+[10:49:57] 
+  ⏸️  Reached daily target of 30 dispatch attempts. Stopping until next run.
+[10:49:57] 
+========================================
+[10:49:57]   ✅ Sent    : 30
+[10:49:57]   ⏭️  Skipped : 0
+[10:49:57]   ❌ Failed  : 0
+[10:49:57] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : sumit_sheet288 - Sheet1.csv, sumit_sheet299 - Sheet1.csv, sumit_sheet42 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : No — still in pending/: sumit_sheet42 - Sheet1.csv, sumit_sheet51 - Sheet1.csv, sumit_sheet511 - Sheet1.csv, sumit_sheet512 - Sheet1 (1).csv, sumit_sheet61 - Sheet1.csv, sumit_sheet610 - Sheet1.csv, sumit_sheet81 - Sheet1.csv, sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv; archived this run: sumit_sheet288 - Sheet1.csv, sumit_sheet299 - Sheet1.csv
+  Duration  : 0:03:03
+  Ended     : 2026-04-22 10:49:57
+============================================================
+

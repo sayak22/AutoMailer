@@ -1,0 +1,61 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-23 10:51:53
+============================================================
+
+[10:51:53] 📂 Found 10 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[10:51:53] 🔐 Logged in to Gmail SMTP successfully.
+[10:51:53] 📂 Processing : pending/sumit_sheet42 - Sheet1.csv  (pending rows: 1)
+[10:51:54]   ✅ SENT     | Sayema | Ascendion | sayema.mansuri@ascendion.com
+[10:51:59] 📁 Archived 'pending/sumit_sheet42 - Sheet1.csv' → 'sent/sumit_sheet42 - Sheet1.csv'
+[10:51:59] 📂 Processing : pending/sumit_sheet51 - Sheet1.csv  (pending rows: 34)
+[10:52:00]   ✅ SENT     | Sayali | GoComet | sayali.kardile@gocomet.com
+[10:52:06]   ✅ SENT     | Nisha | Groww | nisha.tandon@groww.in
+[10:52:12]   ✅ SENT     | Sheethal | Groww | sheethalkm@groww.in
+[10:52:18]   ✅ SENT     | Mayank | OpenTable | mgoyal@opentable.com
+[10:52:23]   ✅ SENT     | Akash | Doordash | akash.singh@doordash.com
+[10:52:29]   ✅ SENT     | Sonali | Databricks | sonali.sachan@databricks.com
+[10:52:35]   ✅ SENT     | Jasmine | Databricks | jasmine.raina@databricks.com
+[10:52:41]   ✅ SENT     | Genevieve | Databricks | genevieve.dias@databricks.com
+[10:52:47]   ✅ SENT     | Rebuen | Databricks | reuben.retnaraj@databricks.com
+[10:52:53]   ✅ SENT     | Shruty | Nutanix | shruty.gupta@nutanix.com
+[10:52:58]   ✅ SENT     | Nithya | Nutanix | nithya.b@nutanix.com
+[10:53:04]   ✅ SENT     | Mahendra | Nutanix | mahendra.d@nutanix.com
+[10:53:10]   ✅ SENT     | Janani | Nutanix | janani.balachandran@nutanix.com
+[10:53:16]   ✅ SENT     | Ankita | Atlan | ankita.chaudhuri@atlan.com
+[10:53:21]   ✅ SENT     | Mohamid | Microsoft | mohamid.zulfikar@microsoft.com
+[10:53:27]   ✅ SENT     | Paramita | Microsoft | plahiri@microsoft.com
+[10:53:33]   ✅ SENT     | Natraj | Microsoft | najaklair@microsoft.com
+[10:53:39]   ✅ SENT     | Neha | Microsoft | v-nehasingh2@microsoft.com
+[10:53:45]   ✅ SENT     | Priya | Microsoft | priyam@microsoft.com
+[10:53:51]   ✅ SENT     | Arun | Rippling | arprakash@rippling.com
+[10:53:56]   ✅ SENT     | Aaron | Rippling | aageorge@rippling.com
+[10:54:02]   ✅ SENT     | Ashwin | Rippling | anarayana@rippling.com
+[10:54:08]   ✅ SENT     | Anshika | Rippling | alamba@rippling.com
+[10:54:14]   ✅ SENT     | Danish | Doordash | danish.shams@ext.doordash.com
+[10:54:20]   ✅ SENT     | Bestha | Mercedes | bestha.amarnath@mercedes-benz.com
+[10:54:25]   ✅ SENT     | Saleem | Mercedes | syed.saleem@daimler.com
+[10:54:31]   ✅ SENT     | Noel | Couchbase | noel.reidy@couchbase.com
+[10:54:37]   ✅ SENT     | Georgina | Couchbase | georgina.protopapas@couchbase.com
+[10:54:43]   ✅ SENT     | Preeti | Target | preeti.chatterjee@target.com
+[10:54:48] 
+  ⏸️  Reached daily target of 30 dispatch attempts. Stopping until next run.
+[10:54:48] 
+========================================
+[10:54:48]   ✅ Sent    : 30
+[10:54:48]   ⏭️  Skipped : 0
+[10:54:48]   ❌ Failed  : 0
+[10:54:48] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : sumit_sheet42 - Sheet1.csv, sumit_sheet51 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : No — still in pending/: sumit_sheet51 - Sheet1.csv, sumit_sheet511 - Sheet1.csv, sumit_sheet512 - Sheet1 (1).csv, sumit_sheet61 - Sheet1.csv, sumit_sheet610 - Sheet1.csv, sumit_sheet81 - Sheet1.csv, sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv; archived this run: sumit_sheet42 - Sheet1.csv
+  Duration  : 0:02:54
+  Ended     : 2026-04-23 10:54:48
+============================================================
+

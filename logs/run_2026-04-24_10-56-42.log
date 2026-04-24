@@ -1,0 +1,83 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-24 10:56:42
+============================================================
+
+[10:56:42] 📂 Found 9 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[10:56:42] 🔐 Logged in to Gmail SMTP successfully.
+[10:56:42] 📂 Processing : pending/sumit_sheet51 - Sheet1.csv  (pending rows: 5)
+[10:56:43]   ✅ SENT     | Nidhi | Target | nidhi.sakunia@target.com
+[10:56:48]   ✅ SENT     | Priyanka | Target | priyanka.sengar@target.com
+[10:56:54]   ✅ SENT     | Mohan | Freshworks | selvakumar.m@freshworks.com
+[10:57:00]   ✅ SENT     | Rohith | Freshworks | rohith.gv@freshworks.com
+[10:57:06]   ✅ SENT     | Monish | Freshworks | monish.r@freshworks.com
+[10:57:11] 📁 Archived 'pending/sumit_sheet51 - Sheet1.csv' → 'sent/sumit_sheet51 - Sheet1.csv'
+[10:57:11] 📂 Processing : pending/sumit_sheet511 - Sheet1.csv  (pending rows: 9)
+[10:57:12]   ✅ SENT     | Neha | Wisemonk | neha@wisemonk.co
+[10:57:18]   ✅ SENT     | Siddhanth | Zoominfo | siddhanth.gawali@zoominfo.com
+[10:57:23]   ✅ SENT     | Vasumathi | Zoominfo | vasumathi.govindaraj@zoominfo.com
+[10:57:30]   ✅ SENT     | Veeramanikandan | Zoominfo | veeramanikandan.g@zoominfo.com
+[10:57:36]   ✅ SENT     | Shivani | Cimpress | shivani.goyal@cimpress.com
+[10:57:41]   ✅ SENT     | Monica | Cimpress | monica.wani@cimpress.com
+[10:57:47]   ✅ SENT     | Lei | Huxley | j.casanding@huxley.com
+[10:57:53]   ✅ SENT     | Tahmid | Huxley | t.hassan@huxley.com
+[10:57:59]   ✅ SENT     | Tammanna | Huxley | t.sharma@huxley.com
+[10:58:04] 📁 Archived 'pending/sumit_sheet511 - Sheet1.csv' → 'sent/sumit_sheet511 - Sheet1.csv'
+[10:58:04] 📂 Processing : pending/sumit_sheet512 - Sheet1 (1).csv  (pending rows: 24)
+[10:58:05]   ✅ SENT     | Rohit | Syfe | rohit.kumar@syfe.com
+[10:58:11]   ✅ SENT     | Fauzia | Syfe | fauzia.khan@syfe.com
+[10:58:17]   ✅ SENT     | Vikram | Syfe | vikram@syfe.com
+[10:58:23]   ✅ SENT     | Akash | Doordash | akash.singh@doordash.com
+[10:58:29]   ✅ SENT     | Neel | Meta | neeld@meta.com
+[10:58:34]   ✅ SENT     | Ekta | Cloudflare | ekta@cloudflare.com
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': ''}
+[10:58:39]   ⏭️  SKIPPED  | Missing: company, mail, name | Row: {'company': '', 'mail': '', 'name': '', 'sent': '', '': 'https://work.mercor.com/jobs/list_AAABmsF5g86eqoo_R4tD8Y3H?referralCode=a802552b-cfc8-11ee-a4ba-42010a400021&utm_source=referral&utm_medium=share&utm_campaign=job_referral'}
+[10:58:39] 📁 Archived 'pending/sumit_sheet512 - Sheet1 (1).csv' → 'sent/sumit_sheet512 - Sheet1 (1).csv'
+[10:58:39] 📂 Processing : pending/sumit_sheet61 - Sheet1.csv  (pending rows: 19)
+[10:58:40]   ✅ SENT     | Jayashree | Mercari | cont-j-vasudevan@mercari.com
+[10:58:46]   ✅ SENT     | Ishita | BCG | jha.ishita@bcg.com
+[10:58:52]   ✅ SENT     | Monalisha | Learneo | monalisha.ghose@learneo.com
+[10:58:57]   ✅ SENT     | Deblina | Learneo | deblina.hait@learneo.com
+[10:59:03]   ✅ SENT     | Raghu | Uber | raghu.tenneti@uber.com
+[10:59:09]   ✅ SENT     | Priyanka | Rubrik | priyanka.muralidharan@rubrik.com
+[10:59:15]   ✅ SENT     | Sheethal | Groww | sheethalkm@groww.in
+[10:59:21]   ✅ SENT     | Farheen | Tamara | farheen.shaikh@tamara.co
+[10:59:27]   ✅ SENT     | Mahesh | Uipath | mahesh.raju@uipath.com
+[10:59:33]   ✅ SENT     | Priyavrat | Uipath | priyavrat.singhrathore@uipath.com
+[10:59:38] 
+  ⏸️  Reached daily target of 30 dispatch attempts. Stopping until next run.
+[10:59:38] 
+========================================
+[10:59:38]   ✅ Sent    : 30
+[10:59:38]   ⏭️  Skipped : 18
+[10:59:38]   ❌ Failed  : 0
+[10:59:38] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : sumit_sheet51 - Sheet1.csv, sumit_sheet511 - Sheet1.csv, sumit_sheet512 - Sheet1 (1).csv, sumit_sheet61 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 18
+  ❌ Failed : 0
+  Archived  : No — still in pending/: sumit_sheet61 - Sheet1.csv, sumit_sheet610 - Sheet1.csv, sumit_sheet81 - Sheet1.csv, sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv; archived this run: sumit_sheet51 - Sheet1.csv, sumit_sheet511 - Sheet1.csv, sumit_sheet512 - Sheet1 (1).csv
+  Duration  : 0:02:56
+  Ended     : 2026-04-24 10:59:38
+============================================================
+

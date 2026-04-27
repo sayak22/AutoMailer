@@ -1,0 +1,63 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-27 11:14:35
+============================================================
+
+[11:14:35] 📂 Found 6 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[11:14:36] 🔐 Logged in to Gmail SMTP successfully.
+[11:14:36] 📂 Processing : pending/sumit_sheet61 - Sheet1.csv  (pending rows: 9)
+[11:14:38]   ✅ SENT     | Sahana | Uipath | sahana.reddy@uipath.com
+[11:14:44]   ✅ SENT     | Ayush | Uipath | ayush.jain@uipath.com
+[11:14:50]   ✅ SENT     | Suhail | Uipath | suhail.siddiqi@uipath.com
+[11:14:56]   ✅ SENT     | Deepa | Nutanix | deepa.joseph@nutanix.com
+[11:15:04]   ✅ SENT     | Sumati | Motive | sumati.pingala@gomotive.com
+[11:15:10]   ✅ SENT     | Sourabh | Stripe | sourabhsanyal@stripe.com
+[11:15:16]   ✅ SENT     | Uma | Stripe | kashwani@stripe.com
+[11:15:23]   ✅ SENT     | Karishma | Stripe | kshma@stripe.com
+[11:15:29]   ✅ SENT     | Remya | Stripe | remyar@stripe.com
+[11:15:34] 📁 Archived 'pending/sumit_sheet61 - Sheet1.csv' → 'sent/sumit_sheet61 - Sheet1.csv'
+[11:15:34] 📂 Processing : pending/sumit_sheet610 - Sheet1.csv  (pending rows: 16)
+[11:15:35]   ✅ SENT     | Mohd | Nielsen | mohd.akbar@nielsen.com
+[11:15:42]   ✅ SENT     | Yash | Goodspace | yash@goodspace.ai
+[11:15:48]   ✅ SENT     | Akash | Flipkart | akash.yadav4@flipkart.com
+[11:15:55]   ✅ SENT     | Devesh | Flipkart | devesh.kumar2@flipkart.com
+[11:16:02]   ✅ SENT     | Mohd | Flipkart | mohd.shariq1@flipkart.com
+[11:16:08]   ✅ SENT     | Riya | Quadeye | riya@quadeye.com
+[11:16:14]   ✅ SENT     | Sonali | Quadeye | sonali@quadeye.com
+[11:16:21]   ✅ SENT     | Megha | Quadeye | megha@quadeye.com
+[11:16:27]   ✅ SENT     | Aditya | Goodspace | aditya@goodspace.ai
+[11:16:33]   ✅ SENT     | Shalini | Barco | shalini.rajput@barco.com
+[11:16:40]   ✅ SENT     | Sumit | Barco | sumit.tiwari@barco.com
+[11:16:47]   ✅ SENT     | Brahmleen | Coding Ninjas | brahmleen.bedi@codingninjas.com
+[11:16:53]   ✅ SENT     | Arpita | Motive | arpita.nayak@gomotive.com
+[11:16:59]   ✅ SENT     | Sumati | Motive | sumati.pingala@gomotive.com
+[11:17:06]   ✅ SENT     | Tanya | BrightEdge | tanya.thakur@brightedge.com
+[11:17:12]   ✅ SENT     | Talent Team | Akamai Technologies | hiring@akamai.com
+[11:17:17] 📁 Archived 'pending/sumit_sheet610 - Sheet1.csv' → 'sent/sumit_sheet610 - Sheet1.csv'
+[11:17:17] 📂 Processing : pending/sumit_sheet81 - Sheet1.csv  (pending rows: 22)
+[11:17:18]   ✅ SENT     | Snehal | Goldman Sachs | snehal.gullapelli@gs.com
+[11:17:25]   ✅ SENT     | Sayali | Goldman Sachs | sayali.halde@goldmansachs.com
+[11:17:31]   ✅ SENT     | Karthik | Goldman Sachs | karthik.hoskote@gs.com
+[11:17:38]   ✅ SENT     | Veena | Goldman Sachs | veena.srivastava@gs.com
+[11:17:45]   ✅ SENT     | Madhuri | Goldman Sachs | madhuri.sil@gs.com
+[11:17:50] 
+  ⏸️  Reached daily target of 30 dispatch attempts. Stopping until next run.
+[11:17:50] 
+========================================
+[11:17:50]   ✅ Sent    : 30
+[11:17:50]   ⏭️  Skipped : 0
+[11:17:50]   ❌ Failed  : 0
+[11:17:50] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : sumit_sheet61 - Sheet1.csv, sumit_sheet610 - Sheet1.csv, sumit_sheet81 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : No — still in pending/: sumit_sheet81 - Sheet1.csv, sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv; archived this run: sumit_sheet61 - Sheet1.csv, sumit_sheet610 - Sheet1.csv
+  Duration  : 0:03:14
+  Ended     : 2026-04-27 11:17:50
+============================================================
+

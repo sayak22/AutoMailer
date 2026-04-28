@@ -1,0 +1,61 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-28 11:19:30
+============================================================
+
+[11:19:30] 📂 Found 4 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[11:19:31] 🔐 Logged in to Gmail SMTP successfully.
+[11:19:31] 📂 Processing : pending/sumit_sheet81 - Sheet1.csv  (pending rows: 17)
+[11:19:32]   ✅ SENT     | Kanka | Uber | kanka.halder@uber.com
+[11:19:38]   ✅ SENT     | Sanjay | Uber | ssamuel@uber.com
+[11:19:45]   ✅ SENT     | Lakshmi | Uber | lakshmisp@uber.com
+[11:19:51]   ✅ SENT     | Vimala | Uber | vimala.khola@uber.com
+[11:19:57]   ✅ SENT     | Nishanth | Uber | nishanth.seshadri@uber.com
+[11:20:03]   ✅ SENT     | Pratima | Linkedin | prshekar@linkedin.com
+[11:20:09]   ✅ SENT     | Ankit | Linkedin | ankita.jain@pepsico.com
+[11:20:15]   ✅ SENT     | Anjali | Linkedin | anyadav@linkedin.com
+[11:20:22]   ✅ SENT     | Abhilash | Linkedin | achipkar@linkedin.com
+[11:20:28]   ✅ SENT     | Meghana | Media Net | meghana.al@media.net
+[11:20:34]   ✅ SENT     | Aashta | Media Net | aastha.p@media.net
+[11:20:40]   ✅ SENT     | Priya | Media Net | priya.go@media.net
+[11:20:46]   ✅ SENT     | Rudraksh | Airbnb | rudraksh.dubey@ext.airbnb.com
+[11:20:52]   ✅ SENT     | Mahima | Airbnb | mahima.suri@ext.airbnb.com
+[11:20:58]   ✅ SENT     | Kajal | Airbnb | kajal.kaushal@ext.airbnb.com
+[11:21:04]   ✅ SENT     | Ayushi | Airbnb | ayushi.kumar@airbnb.com
+[11:21:10]   ✅ SENT     | Amulya | Airbnb | amulya.bhatt@airbnb.com
+[11:21:15] 📁 Archived 'pending/sumit_sheet81 - Sheet1.csv' → 'sent/sumit_sheet81 - Sheet1.csv'
+[11:21:15] 📂 Processing : pending/sumit_sheet810 - Sheet1.csv  (pending rows: 22)
+[11:21:16]   ✅ SENT     | Priya | Quartic | priya@quartic.ai
+[11:21:22]   ✅ SENT     | Nitya | Sumo Logic | nbhatnagar@sumologic.com
+[11:21:28]   ✅ SENT     | Neha | Sumo Logic | neha.ganesh.ctr@sumologic.com
+[11:21:35]   ✅ SENT     | Anushya | Sumo Logic | anusuya.rajendran@sumologic.com
+[11:21:41]   ✅ SENT     | Pranati | Teamified | pranati.rajak@patona.com.au
+[11:21:47]   ✅ SENT     | Neha | Teamified | neha.bhagat@teamified.com.au
+[11:21:53]   ✅ SENT     | Rufeshan | Teamified | rufeshan.ansari@teamified.com.au
+[11:21:59]   ✅ SENT     | Shivani | Teamified | shivani.shingde@teamified.com.au
+[11:22:05]   ✅ SENT     | Garima | Coffeee.io | garima@coffeee.io
+[11:22:11]   ✅ SENT     | Ayesha | Deel | ayesha.banta@deel.com
+[11:22:17]   ✅ SENT     | Sarthak | Deel | sarthak.vohra@deel.com
+[11:22:23]   ✅ SENT     | Akash | Deel | akash.parnami@deel.com
+[11:22:29]   ✅ SENT     | Zaahid | Deel | zaahid.solomon@deel.com
+[11:22:34] 
+  ⏸️  Reached daily target of 30 dispatch attempts. Stopping until next run.
+[11:22:34] 
+========================================
+[11:22:34]   ✅ Sent    : 30
+[11:22:34]   ⏭️  Skipped : 0
+[11:22:34]   ❌ Failed  : 0
+[11:22:34] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : sumit_sheet81 - Sheet1.csv, sumit_sheet810 - Sheet1.csv
+  ✅ Sent   : 30
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : No — still in pending/: sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv; archived this run: sumit_sheet81 - Sheet1.csv
+  Duration  : 0:03:04
+  Ended     : 2026-04-28 11:22:34
+============================================================
+

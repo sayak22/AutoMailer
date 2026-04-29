@@ -1,0 +1,56 @@
+============================================================
+  AutoMailer Session Log
+  Started : 2026-04-29 11:14:52
+============================================================
+
+[11:14:52] 📂 Found 3 CSV file(s) in pending/. Target: 30 dispatch attempts (sent + failed) this run, across files as needed.
+
+[11:14:53] 🔐 Logged in to Gmail SMTP successfully.
+[11:14:53] 📂 Processing : pending/sumit_sheet810 - Sheet1.csv  (pending rows: 9)
+[11:14:54]   ✅ SENT     | Priyansha | Deel | priyansha.bhushan@deel.com
+[11:15:00]   ✅ SENT     | Ashwin | MobiusEngine | ashwin@mobiusengine.ai
+[11:15:06]   ✅ SENT     | Gangashree | Cimpress | gangashree.pattnaik@cimpress.com
+[11:15:12]   ✅ SENT     | Manasa | Flam | manasa.kamarthi@flamapp.com
+[11:15:18]   ✅ SENT     | Astha | Interview Kickstart | astha.thakur@interviewkickstart.com
+[11:15:23]   ✅ SENT     | Kanishka | PolicyBazaar | kanishkabisht@policybazaar.com
+[11:15:29]   ✅ SENT     | Neelam | PolicyBazaar | neelamjakhar@policybazaar.com
+[11:15:35]   ✅ SENT     | Tamanna | PolicyBazaar | tamannachauhan@policybazaar.com
+[11:15:41]   ✅ SENT     | Karishma | PolicyBazaar | karishmaparyani@policybazaar.com
+[11:15:46] 📁 Archived 'pending/sumit_sheet810 - Sheet1.csv' → 'sent/sumit_sheet810 - Sheet1.csv'
+[11:15:46] 📂 Processing : pending/sumit_sheet89 - Sheet1.csv  (pending rows: 8)
+[11:15:48]   ✅ SENT     | Nelly | Atlassian | nsattari@atlassian.com
+[11:15:53]   ✅ SENT     | Talent Team | Rippling | alamba@rippling.com
+[11:15:59]   ✅ SENT     | Garima | SentinelOne | garima.more@sentinelone.com
+[11:16:05]   ✅ SENT     | Qurain | SentinelOne | quarin.fatma@sentinelone.com
+[11:16:11]   ✅ SENT     | Abhijeet | SentinelOne | abhijeet.malik@sentinelone.com
+[11:16:17]   ✅ SENT     | Soham | Mercor | soham@mercor.com
+[11:16:23]   ✅ SENT     | Kuai | Mercor | kuai@mercor.com
+[11:16:30]   ✅ SENT     | Princy | Mercor | princy@mercor.com
+[11:16:35] 📁 Archived 'pending/sumit_sheet89 - Sheet1.csv' → 'sent/sumit_sheet89 - Sheet1.csv'
+[11:16:35] 📂 Processing : pending/sumit_sheet91 - Sheet1.csv  (pending rows: 5)
+[11:16:36]   ✅ SENT     | Swapnil | StatusNeo | swapnil.singh@statusneo.com
+[11:16:42]   ✅ SENT     | Abhijeet | BMW | abhijeet.bhosale@bmwtechworks.in
+[11:16:48]   ✅ SENT     | Tenzin | Publicis Sapient | tenzin.tsering@publicissapient.com
+[11:16:54]   ✅ SENT     | Anuja | Volopay | anuja@volopay.co
+[11:17:00]   ✅ SENT     | Deepthi | Sequoia | deepthi.ravindran@sequoia.com
+[11:17:05] 📁 Archived 'pending/sumit_sheet91 - Sheet1.csv' → 'sent/sumit_sheet91 - Sheet1.csv'
+[11:17:05] 
+📭 Not enough pending rows to reach 30 dispatch attempts this run (attempts=22).
+[11:17:05] 
+========================================
+[11:17:05]   ✅ Sent    : 22
+[11:17:05]   ⏭️  Skipped : 0
+[11:17:05]   ❌ Failed  : 0
+[11:17:05] ========================================
+
+============================================================
+  Session Summary
+  CSV file  : sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv
+  ✅ Sent   : 22
+  ⏭️  Skipped : 0
+  ❌ Failed : 0
+  Archived  : Yes → sent/ (sumit_sheet810 - Sheet1.csv, sumit_sheet89 - Sheet1.csv, sumit_sheet91 - Sheet1.csv)
+  Duration  : 0:02:12
+  Ended     : 2026-04-29 11:17:05
+============================================================
+
